@@ -6,24 +6,40 @@ if (!isPaused) {
   var oldX = x;
   var oldY = y;
   
+  var input = scrCheckInput();
+  
   //Check moves
-  if (scrCheckUp()) {
+
+  if (ds_list_find_index(input, "up") != -1) {
     y -= moveSpeed;
+    if (scrIsOutOfBounds(self, objControlParent)) {
+      x = oldX;
+      y = oldY;
+    }
   }
-  if (scrCheckDown()) {
+  if (ds_list_find_index(input, "down") != -1) {
     y += moveSpeed; 
+    if (scrIsOutOfBounds(self, objControlParent)) {
+      x = oldX;
+      y = oldY;
+    }
   }
-  if (scrCheckLeft()) {
+
+  if (ds_list_find_index(input, "left") != -1) {
     x -= moveSpeed; 
+    if (scrIsOutOfBounds(self, objControlParent)) {
+      x = oldX;
+      y = oldY;
+    }
   }
-  if (scrCheckRight()) {
+  if (ds_list_find_index(input, "right") != -1) {
     x += moveSpeed; 
+    if (scrIsOutOfBounds(self, objControlParent)) {
+      x = oldX;
+      y = oldY;
+    }
   }
- 
-  if (scrIsOutOfBounds(self, objControlParent)) {
-    x = oldX;
-    y = oldY;
-  }
+
     
 
   

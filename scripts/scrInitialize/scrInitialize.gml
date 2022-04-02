@@ -14,12 +14,4 @@ function scrInitialize() {
   randomize();
 }
 
-function scrSetupScribbleFonts() {
 
-	scribble_font_add("fntMermaid20");
-	scribble_font_add("fntMermaid28");
-	scribble_font_add("fntMermaid36");
-
-	//The default font will be fnt_dialogue as it was added first
-	scribble_font_set_default("fntMermaid28");
-}

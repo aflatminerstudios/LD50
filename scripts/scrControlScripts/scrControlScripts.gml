@@ -2,7 +2,7 @@
 // if (live_call()) return live_result;
 // if (live_call(argument0, argument1)) return live_result; // For 2 arg scripts
 function scrCheckInput(){
-  inputString = "";
+  /*inputString = "";
 	//Checks all 4 inputs, otherwise returns empty space
 	if (scrCheckRight()) {
 	  inputString += "right";
@@ -16,7 +16,23 @@ function scrCheckInput(){
   if (scrCheckUp()) {
 	  inputString += "up"; 
 	}
-  return inputString;
+  return inputString;*/
+  inputList = ds_list_create();
+	//Checks all 4 inputs, otherwise returns empty space
+	if (scrCheckRight()) {
+	  ds_list_add(inputList, "right");
+	}
+  if (scrCheckLeft()) {
+	  ds_list_add(inputList, "left"); 
+	}
+  if (scrCheckDown()) {
+	  ds_list_add(inputList, "down"); 
+	}
+  if (scrCheckUp()) {
+	  ds_list_add(inputList, "up"); 
+	}
+  return inputList;
+  
 }
 
 /// @function     scrCheckLeft();
