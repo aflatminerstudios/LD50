@@ -6,6 +6,7 @@
     {"id":{"name":"objInternalItem","path":"objects/objInternalItem/objInternalItem.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":1,},
+    {"id":{"name":"NewGameTest","path":"rooms/NewGameTest/NewGameTest.yy",},"order":1,},
     {"id":{"name":"objControlParent","path":"objects/objControlParent/objControlParent.yy",},"order":0,},
     {"id":{"name":"scrControlScripts","path":"scripts/scrControlScripts/scrControlScripts.yy",},"order":0,},
     {"id":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},"order":0,},
@@ -38,6 +39,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"NewGameTest","path":"rooms/NewGameTest/NewGameTest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
