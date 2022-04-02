@@ -9,6 +9,7 @@
     {"id":{"name":"objControlParent","path":"objects/objControlParent/objControlParent.yy",},"order":0,},
     {"id":{"name":"scrControlScripts","path":"scripts/scrControlScripts/scrControlScripts.yy",},"order":0,},
     {"id":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},"order":0,},
+    {"id":{"name":"scrPixelScripts","path":"scripts/scrPixelScripts/scrPixelScripts.yy",},"order":7,},
     {"id":{"name":"scrInitialize","path":"scripts/scrInitialize/scrInitialize.yy",},"order":2,},
     {"id":{"name":"scrAflatLibLogging","path":"scripts/scrAflatLibLogging/scrAflatLibLogging.yy",},"order":3,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":1,},

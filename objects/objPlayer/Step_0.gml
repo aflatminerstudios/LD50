@@ -12,14 +12,14 @@ if (!isPaused) {
 
   if (ds_list_find_index(input, "up") != -1) {
     y -= moveSpeed;
-    if (scrIsOutOfBounds(self, objControlParent)) {
+    if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
     }
   }
   if (ds_list_find_index(input, "down") != -1) {
     y += moveSpeed; 
-    if (scrIsOutOfBounds(self, objControlParent)) {
+    if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
     }
@@ -27,14 +27,14 @@ if (!isPaused) {
 
   if (ds_list_find_index(input, "left") != -1) {
     x -= moveSpeed; 
-    if (scrIsOutOfBounds(self, objControlParent)) {
+    if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
     }
   }
   if (ds_list_find_index(input, "right") != -1) {
     x += moveSpeed; 
-    if (scrIsOutOfBounds(self, objControlParent)) {
+    if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
     }
