@@ -3,6 +3,12 @@
 
 scrInitialize();
 
+
+//Probably temp, pixel lifespan in number of ticks
+pixelLife = 60;
+
+
+
 //Set up game switching
 controlObjects = ds_map_create();
 currentGame = "Test";
@@ -19,8 +25,8 @@ scrSwitchGame(currentGame);
 screenWidth = 1200;
 screenHeight = 600;
 
-pixelWidth = 20;
-pixelHeight = 20;
+pixelWidth = 10;
+pixelHeight = 10;
 
 
 
@@ -33,5 +39,12 @@ numHPixels = screenWidth / pixelWidth;
 numVPixels = screenHeight / pixelHeight;
 
 pixelGrid = ds_grid_create(numHPixels, numVPixels);
+
+for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
+  for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
+    ds_grid_set(pixelGrid, i, j, 0.0); 
+  }
+}
+
 
 
