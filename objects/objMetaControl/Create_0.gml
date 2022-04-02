@@ -8,25 +8,12 @@ scrInitialize();
 pixelLife = 200;
 
 
-
-//Set up game switching
-controlObjects = ds_map_create();
-currentGame = "Test";
-
-
-ds_map_add(controlObjects, "Test", objTestParent);
-
-scrSwitchGame(currentGame);
-
-
-/////////////////////////////////////////////////////////////////////////////////
-
 // Set up screen and grid
 screenWidth = 1200;
 screenHeight = 600;
 
-pixelWidth = 10;
-pixelHeight = 10;
+pixelWidth = 20;
+pixelHeight = 20;
 
 
 
@@ -45,6 +32,22 @@ for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
     ds_grid_set(pixelGrid, i, j, 0.0); 
   }
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+//Set up game switching
+controlObjects = ds_map_create();
+currentGame = "Test";
+
+
+ds_map_add(controlObjects, "Test", objTestParent);
+ds_map_add(controlObjects, "Snake", objSnakeControl);
+
+scrSwitchGame(currentGame);
+
+
+
 
 
 
