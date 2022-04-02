@@ -5,7 +5,7 @@ scrInitialize();
 
 
 //Probably temp, pixel lifespan in number of ticks
-pixelLife = 60;
+pixelLife = 200;
 
 
 

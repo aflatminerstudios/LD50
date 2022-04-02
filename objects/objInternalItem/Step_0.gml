@@ -16,7 +16,7 @@ for (var i = topLeft[0]; i <= bottomRight[0]; i++) {
     //show_debug_message(string(i) + ", " + string(j));
     
     if (i >= 0 && j >= 0) {
-      ds_grid_add(objMetaControl.pixelGrid, i, j,  counterIncrease);    
+      ds_grid_add(objMetaControl.pixelGrid, i, j, counterIncrease);    
     }
   }
 }
