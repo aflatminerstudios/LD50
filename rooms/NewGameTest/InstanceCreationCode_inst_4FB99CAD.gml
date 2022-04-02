@@ -1,0 +1,1 @@
+scrSwitchGame("Snake");
