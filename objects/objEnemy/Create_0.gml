@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-moveSpeed = 4;
+moveSpeed = 3;

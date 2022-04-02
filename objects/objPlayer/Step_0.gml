@@ -3,6 +3,9 @@
 
 if (!isPaused) {
   
+  var oldX = x;
+  var oldY = y;
+  
   //Check moves
   if (scrCheckUp()) {
     y -= moveSpeed;
@@ -16,7 +19,13 @@ if (!isPaused) {
   if (scrCheckRight()) {
     x += moveSpeed; 
   }
-  
+ 
+  if (scrIsOutOfBounds(self, objControlParent)) {
+    x = oldX;
+    y = oldY;
+  }
+    
+
   
   
 }
