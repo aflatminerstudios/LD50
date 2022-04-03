@@ -32,6 +32,7 @@
     {"id":{"name":"sprSnakeTail","path":"sprites/sprSnakeTail/sprSnakeTail.yy",},"order":7,},
     {"id":{"name":"scrSpawnSnakeObject","path":"scripts/scrSpawnSnakeObject/scrSpawnSnakeObject.yy",},"order":6,},
     {"id":{"name":"sprSnakeBody","path":"sprites/sprSnakeBody/sprSnakeBody.yy",},"order":1,},
+    {"id":{"name":"sprSnakeBackground","path":"sprites/sprSnakeBackground/sprSnakeBackground.yy",},"order":8,},
     {"id":{"name":"sprShooterCart","path":"sprites/sprShooterCart/sprShooterCart.yy",},"order":2,},
     {"id":{"name":"sprSnakeTurnRight","path":"sprites/sprSnakeTurnRight/sprSnakeTurnRight.yy",},"order":6,},
     {"id":{"name":"sprHedgehog","path":"sprites/sprHedgehog/sprHedgehog.yy",},"order":1,},

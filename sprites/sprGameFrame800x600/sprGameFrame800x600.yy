@@ -26,10 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"2898eb17-141a-46c3-b992-d6999063e466","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"92cb2faa-5868-4ef7-97ff-9ff4df63314b","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"3072bdc5-6b47-4196-a024-2d7c6c124d5e","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"22490b2e-f3d6-490f-9c38-be598170e345","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"015928aa-a640-4b40-a4d4-4f524b992173","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"92cb2faa-5868-4ef7-97ff-9ff4df63314b","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"LayerId":{"name":"5272e3b6-9609-46e0-85e2-9403e348742e","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sprGameFrame800x600","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"resourceVersion":"1.0","name":"f99a1af9-8b2c-40f8-ae7c-c024adc3bf80","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,7 +70,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2898eb17-141a-46c3-b992-d6999063e466","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2898eb17-141a-46c3-b992-d6999063e466","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default (2)","resourceVersion":"1.0","name":"5272e3b6-9609-46e0-85e2-9403e348742e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4","resourceVersion":"1.0","name":"92cb2faa-5868-4ef7-97ff-9ff4df63314b","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"3072bdc5-6b47-4196-a024-2d7c6c124d5e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"22490b2e-f3d6-490f-9c38-be598170e345","tags":[],"resourceType":"GMImageLayer",},
