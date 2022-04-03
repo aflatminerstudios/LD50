@@ -3,6 +3,8 @@
 
 scrInitialize();
 
+totalScore = 0;
+
 
 //Probably temp, pixel lifespan in number of ticks
 pixelLife = 200;
@@ -43,12 +45,13 @@ for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
 
 //Set up game switching
 controlObjects = ds_map_create();
-currentGame = "Shooter";
+currentGame = "Snake";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);
-ds_map_add(controlObjects, "Snake", objSnakeControl);
-ds_map_add(controlObjects, "Shooter", objShooterControl);
+ds_map_add(controlObjects, "Snake", objSnakeTitle);
+ds_map_add(controlObjects, "Shooter", objShooterTitle);
+ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 
 scrSwitchGame(currentGame);
 

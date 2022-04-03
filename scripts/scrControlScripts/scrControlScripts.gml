@@ -37,7 +37,15 @@ function scrCheckInput(){
   if (scrCheckActionPressed()) {
     ds_list_add(inputList, "actionPressed"); 
   }
-  
+  if (scrCheckGameSelectPressed()) {
+    ds_list_add(inputList, "gameSelectPressed"); 
+  }
+  if (scrCheckRightPressed()) {
+	  ds_list_add(inputList, "rightPressed");
+	}
+  if (scrCheckLeftPressed()) {
+	  ds_list_add(inputList, "leftPressed"); 
+	}
   return inputList;
   
 }
@@ -84,4 +92,24 @@ function scrCheckActionPressed() {
   if (keyboard_check_pressed(vk_space)) {
     return true; 
   }
+}
+
+function scrCheckGameSelectPressed() {
+  if (keyboard_check_pressed(vk_escape)) {
+    return true; 
+  }
+}
+
+
+function scrCheckLeftPressed() {
+	if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))) {
+	  return true;
+	}
+}
+
+
+function scrCheckRightPressed() {
+	if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))) {
+	  return true;
+	}
 }

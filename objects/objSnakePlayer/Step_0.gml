@@ -22,16 +22,16 @@ if (!isPaused) {
   //Check moves
 
   if (ds_list_find_index(input, "up") != -1) {
-    if (turnDir != 270)
+    if (oldDir != 270)
       turnDir = 90;
   } else if (ds_list_find_index(input, "down") != -1) {
-    if (turnDir != 90)
+    if (oldDir != 90)
       turnDir = 270;
   } else if (ds_list_find_index(input, "left") != -1) {
-    if (turnDir != 0)
+    if (oldDir != 0)
       turnDir = 180;
   } else if (ds_list_find_index(input, "right") != -1) {
-    if (turnDir != 180)
+    if (oldDir != 180)
       turnDir = 0;
   }
 

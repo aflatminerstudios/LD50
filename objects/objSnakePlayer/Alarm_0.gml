@@ -86,4 +86,5 @@ if (!isPaused) {
   alarm[0] = turnSpeed;
 
   oldDir = turnDir;
+  
 }

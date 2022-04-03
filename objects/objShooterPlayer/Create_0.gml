@@ -9,5 +9,5 @@ moveSpeed = 4;
 bulletX = 4;
 bulletY = -11;
 
-shootingTimer = room_speed / 2;
+shootingTimer = room_speed / 3;
 isShooting = false;

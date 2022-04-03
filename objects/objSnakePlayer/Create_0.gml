@@ -8,6 +8,7 @@ event_inherited();
 turnDir = 90;
 oldDir = 90;
 
+
 maxParts = 1;
 
 turnSpeed = room_speed / 5;
