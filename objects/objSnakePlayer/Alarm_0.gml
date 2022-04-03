@@ -87,4 +87,12 @@ if (!isPaused) {
 
   oldDir = turnDir;
   
+  var gridPos = scrGetSnakeGridPosition(x, y);
+  
+  if (gridPos[0] < 0 || gridPos[1] < 0 
+    || gridPos[0] >= objSnakeControl.numGridX 
+    || gridPos[1] >= objSnakeControl.numGridY) {
+    objSnakeControl.alarm[0] = 1;
+  }
+  
 }

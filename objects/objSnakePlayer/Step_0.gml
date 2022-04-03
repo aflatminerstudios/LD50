@@ -37,11 +37,11 @@ if (!isPaused) {
 
     
   //speed *= 1.01;
-  
+  /*
   if (scrIsOutOfBounds(self, objMetaControl)) {
     objSnakeControl.alarm[0] = 1;
   }
-  
+  */
   
   
   

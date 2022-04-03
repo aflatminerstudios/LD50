@@ -41,7 +41,7 @@ pixelGrid = ds_grid_create(numHPixels, numVPixels);
 
 for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
   for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
-    ds_grid_set(pixelGrid, i, j, random(0.3)); 
+    ds_grid_set(pixelGrid, i, j, random(0.2)); 
   }
 }
 

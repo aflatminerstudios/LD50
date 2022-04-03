@@ -12,24 +12,32 @@ function scrSpawnSnakeObject(gridX, gridY, obj){
 function scrSpawnSnakeTarget() {
 var collInst;
 
-do  {
-  //TODO: Fix spawning
-  var gridX = irandom(objSnakeControl.numGridX - 1) + 1;
-  var gridY = irandom(objSnakeControl.numGridY - 1) + 1;    
-  var target = scrSpawnSnakeObject(gridX, gridY, objSnakeTarget);
-  collInst = instance_place(target.x, target.y, objSnakePart);
-  if (collInst == noone) {
-    collInst = instance_place(target.x, target.y, objSnakePlayer);
-  }
-  if (collInst != noone) {
-    with (target) {
-      instance_destroy(); 
+  do  {
+    //TODO: Fix spawning
+    var gridX = irandom(objSnakeControl.numGridX);
+    var gridY = irandom(objSnakeControl.numGridY);    
+    var target = scrSpawnSnakeObject(gridX, gridY, objSnakeTarget);
+    collInst = instance_place(target.x, target.y, objSnakePart);
+    if (collInst == noone) {
+      collInst = instance_place(target.x, target.y, objSnakePlayer);
     }
-  }
+    if (collInst != noone) {
+      with (target) {
+        instance_destroy(); 
+      }
+    }
   
-} until (collInst == noone);
+  } until (collInst == noone);
  
- 
+}
 
- 
+function scrGetSnakeGridPosition(posX, posY) {
+  var gridPos;
+  gridPos[0] = 0;
+  gridPos[1] = 0;
+  
+  gridPos[0] = (posX - objMetaControl.boundLeft - objSnakeControl.borderX)/ objSnakeControl.gridWidth;
+  gridPos[1] = (posY - objMetaControl.boundUp - objSnakeControl.borderY)/ objSnakeControl.gridWidth;
+  
+  return gridPos;
 }
