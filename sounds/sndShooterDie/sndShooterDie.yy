@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndShooterEnemyDie.wav",
-  "duration": 0.422177,
+  "soundFile": "sndShooterDie.wav",
+  "duration": 2.219456,
   "parent": {
     "name": "Shooter",
     "path": "folders/Sounds/Shooter.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndShooterEnemyDie",
+  "name": "sndShooterDie",
   "tags": [],
   "resourceType": "GMSound",
 }
