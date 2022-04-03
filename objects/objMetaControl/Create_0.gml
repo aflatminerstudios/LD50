@@ -12,8 +12,8 @@ pixelLife = 200;
 screenWidth = 200;
 screenHeight = 200;
 
-pixelWidth = 8;
-pixelHeight = 8;
+pixelWidth = 2;
+pixelHeight = 2;
 
 
 
