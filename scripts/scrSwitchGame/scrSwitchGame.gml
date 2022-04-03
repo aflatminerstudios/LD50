@@ -15,8 +15,9 @@ function scrSwitchGame(whichGame){
     instance_destroy(); 
   }
   
-  objMetaControl.currentGame = whichGame;
-  //Create new control object for new game, which probably autostarts
+ objMetaControl.currentGame = whichGame;
+ 
+ //Create new control object for new game, which probably autostarts
  instance_create_depth(0, 0, 0, ds_map_find_value(objMetaControl.controlObjects, whichGame));
 
 }

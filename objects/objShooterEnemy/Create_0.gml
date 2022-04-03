@@ -4,9 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-moveSpeed = 2;
-targetX = self.x;
-targetY = self.y;
+moveSpeed = 3;
+moveVariance = 2;
 
-changeSpeed = room_speed;
-alarm[0] = 1;
+hp = 4;
+hpVariance = 2;

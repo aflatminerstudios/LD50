@@ -15,8 +15,6 @@ screenHeight = 600;
 pixelWidth = 20;
 pixelHeight = 20;
 
-
-
 boundLeft = (room_width - screenWidth) / 2;
 boundRight = room_width - ((room_width - screenWidth) / 2);
 boundUp = (room_height - screenHeight) / 2;
@@ -38,11 +36,12 @@ for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
 
 //Set up game switching
 controlObjects = ds_map_create();
-currentGame = "Test";
+currentGame = "Shooter";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);
 ds_map_add(controlObjects, "Snake", objSnakeControl);
+ds_map_add(controlObjects, "Shooter", objShooterControl);
 
 scrSwitchGame(currentGame);
 

@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "sprEnemy",
-    "path": "sprites/sprEnemy/sprEnemy.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objInternalItem",
-    "path": "objects/objInternalItem/objInternalItem.yy",
+    "name": "objControlParent",
+    "path": "objects/objControlParent/objControlParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +22,18 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Simple Game",
-    "path": "folders/Objects/Simple Game.yy",
+    "name": "Control Objects",
+    "path": "folders/Objects/Control Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objEnemy",
+  "name": "objShooterControl",
   "tags": [],
   "resourceType": "GMObject",
 }

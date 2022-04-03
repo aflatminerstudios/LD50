@@ -30,6 +30,7 @@ if (!isPaused) {
 
   if (ds_list_find_index(input, "left") != -1) {
     x -= moveSpeed; 
+    image_xscale = 1;
     if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
@@ -37,12 +38,30 @@ if (!isPaused) {
   }
   if (ds_list_find_index(input, "right") != -1) {
     x += moveSpeed; 
+    image_xscale = -1;
     if (scrIsOutOfBounds(self, objMetaControl)) {
       x = oldX;
       y = oldY;
     }
   }
 
-
+  if (ds_list_find_index(input, "action") != -1) {
+    if (!isShooting && alarm[0] < 0) {
+      alarm[0] = shootingTimer
+      isShooting = true;
+      var target = instance_nearest(x, y, objShooterEnemy);
+      if (target != noone) {
+        var bullet = scrSpawnShooterBullet(self, target);
+      } else {
+        var bullet = scrSpawnShooterBullet(self, self); 
+      }
+    }
+  }
+  
+  if (ds_list_find_index(input, "actionPressed") != -1) {
+    if (alarm[0] > shootingTimer / 2) {
+      alarm[0] = shootingTimer / 2; 
+    }
+  }
   
 }

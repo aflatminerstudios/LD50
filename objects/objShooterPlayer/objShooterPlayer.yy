@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprEnemy",
-    "path": "sprites/sprEnemy/sprEnemy.yy",
+    "name": "sprHedgehog",
+    "path": "sprites/sprHedgehog/sprHedgehog.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,18 +24,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objShooterEnemy","path":"objects/objShooterEnemy/objShooterEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Simple Game",
-    "path": "folders/Objects/Simple Game.yy",
+    "name": "ShooterGame",
+    "path": "folders/Objects/ShooterGame.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objEnemy",
+  "name": "objShooterPlayer",
   "tags": [],
   "resourceType": "GMObject",
 }
