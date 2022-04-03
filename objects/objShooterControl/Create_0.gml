@@ -16,7 +16,7 @@ minEnemies = 1;
 
 baseSpawnChance = 0.4;
 spawnChance = baseSpawnChance;
-minSpawnTime = room_speed / 10;
+minSpawnTime = room_speed / 12;
 baseSpawnTime = room_speed / 2;
 spawnTime = baseSpawnTime;
 
