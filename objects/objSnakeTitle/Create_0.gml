@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//show_message("You lose!");
+alarm[0] = room_speed / 2;
 
+ready = false;
 
-scrSwitchGame("Shooter");
-
+controlObject = objSnakeControl;
