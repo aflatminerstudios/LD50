@@ -8,4 +8,6 @@ maxEnemies += 0.3;
 spawnChance *= 1.1;
 clamp(spawnChance, 0, 1.0);
 
+scoreIncrease += 1;
+
 alarm[3] = improveTime;
