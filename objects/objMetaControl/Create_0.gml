@@ -41,8 +41,13 @@ pixelGrid = ds_grid_create(numHPixels, numVPixels);
 
 for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
   for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
-    ds_grid_set(pixelGrid, i, j, 0.0); 
+    ds_grid_set(pixelGrid, i, j, random(0.3)); 
   }
+}
+
+var numBurntPixel = irandom_range(10,20);
+for (var i = 0; i < numBurntPixel; i++) {
+  ds_grid_set(pixelGrid, irandom_range(0, numHPixels), irandom_range(0, numVPixels), random_range(0.8, 1.4));
 }
 
 

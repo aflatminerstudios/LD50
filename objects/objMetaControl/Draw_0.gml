@@ -7,10 +7,10 @@ var chanceToFullyRevive = 0.0001;
 var chanceToRevive = 0.0005;
 var reviveMultiplier = 0.5;
 
-var maxSum = 5;
+var maxSum = 20;
 var maxIndex = -1;
-var pctToBurn = 0.7;
-var minToBurn = 1.2;
+var pctToBurn = 0.5;
+var minToBurn = 1.1;
 var burnThreshold = 1;
 var lineList = ds_list_create();
 
@@ -53,22 +53,22 @@ ds_list_add(lineList, lineIndex);
 
 for (var i = 0; i < numHPixels; i++) {
   if (ds_list_find_index(lineList, i) != -1) {
-      if (random(1) < 0.9) {
+      if (random(1) < 0.95) {
         draw_set_color(#94B26B);
       } else {
         draw_set_color(choose(#E90BC0, #10E1F4, #F7E281, #5EDF76)); 
       }
+      if (random(1) < 0.98) {
+        for (var j = 0; j < numVPixels; j++) {
+          var cArray = scrCoordsGameToScreen(i, j, objMetaControl);
       
-    for (var j = 0; j < numVPixels; j++) {
-      var cArray = scrCoordsGameToScreen(i, j, objMetaControl);
-      
-      //If column has maximum sum, draw it as a line
+          //If column has maximum sum, draw it as a line
 
       
-      draw_rectangle(cArray[0], cArray[1], cArray[0] + pixelWidth -1 , cArray[1] + pixelHeight - 1, false);
+          draw_rectangle(cArray[0], cArray[1], cArray[0] + pixelWidth -1 , cArray[1] + pixelHeight - 1, false);
       
-    }
-    
+        }
+      }
   } else {
   for (var j = 0; j < numVPixels; j++) {
     
