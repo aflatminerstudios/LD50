@@ -17,7 +17,7 @@ numGridX = gameWidth / gridWidth;
 numGridY = gameHeight / gridWidth;
 
 
-scrSpawnSnakeObject(20, 20, objSnakePlayer);
+scrSpawnSnakeObject(3, 3, objSnakePlayer);
 scrSpawnSnakeTarget();
 
 

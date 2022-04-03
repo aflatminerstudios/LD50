@@ -43,11 +43,12 @@ for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
 
 //Set up game switching
 controlObjects = ds_map_create();
-currentGame = "Test";
+currentGame = "Shooter";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);
 ds_map_add(controlObjects, "Snake", objSnakeControl);
+ds_map_add(controlObjects, "Shooter", objShooterControl);
 
 scrSwitchGame(currentGame);
 

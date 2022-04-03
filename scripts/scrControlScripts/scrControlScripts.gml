@@ -31,6 +31,13 @@ function scrCheckInput(){
   if (scrCheckUp()) {
 	  ds_list_add(inputList, "up"); 
 	}
+  if (scrCheckAction()) {
+    ds_list_add(inputList, "action"); 
+  }
+  if (scrCheckActionPressed()) {
+    ds_list_add(inputList, "actionPressed"); 
+  }
+  
   return inputList;
   
 }
@@ -65,4 +72,16 @@ function scrCheckDown() {
 	if (keyboard_check(vk_down) || keyboard_check(ord("S"))) {
 	  return true;
 	}
+}
+
+function scrCheckAction() {
+  if (keyboard_check(vk_space)) {
+    return true; 
+  }
+}
+
+function scrCheckActionPressed() {
+  if (keyboard_check_pressed(vk_space)) {
+    return true; 
+  }
 }

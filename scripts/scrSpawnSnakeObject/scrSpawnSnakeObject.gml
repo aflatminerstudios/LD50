@@ -10,16 +10,24 @@ function scrSpawnSnakeObject(gridX, gridY, obj){
 }
 
 function scrSpawnSnakeTarget() {
+var collInst;
 
- do  {
-   //TODO: Fix spawning
-    var gridX = irandom(objSnakeControl.numGridX - 1) + 1;
-    var gridY = irandom(objSnakeControl.numGridY - 1) + 1;
-    show_debug_message("Spawning at: " + string(gridX) + " , " + string(gridY));
-    var target = scrSpawnSnakeObject(gridX, gridY, objSnakeTarget);
-    var collInst = instance_place(target.x, target.y, objSnakePart);
-    var collInst2 = instance_place(target.x, target.y, objSnakePlayer);
- } until (collInst == noone && collInst2 == noone);
+do  {
+  //TODO: Fix spawning
+  var gridX = irandom(objSnakeControl.numGridX - 1) + 1;
+  var gridY = irandom(objSnakeControl.numGridY - 1) + 1;    
+  var target = scrSpawnSnakeObject(gridX, gridY, objSnakeTarget);
+  collInst = instance_place(target.x, target.y, objSnakePart);
+  if (collInst == noone) {
+    collInst = instance_place(target.x, target.y, objSnakePlayer);
+  }
+  if (collInst != noone) {
+    with (target) {
+      instance_destroy(); 
+    }
+  }
+  
+} until (collInst == noone);
  
  
 
