@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprGhost",
-    "path": "sprites/sprGhost/sprGhost.yy",
+    "name": "sprExplodingGhost",
+    "path": "sprites/sprExplodingGhost/sprExplodingGhost.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"objShooterBullet","path":"objects/objShooterBullet/objShooterBullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -35,7 +33,7 @@
     "path": "folders/Objects/ShooterGame.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objShooterEnemy",
+  "name": "objShooterExplodingGhost",
   "tags": [],
   "resourceType": "GMObject",
 }

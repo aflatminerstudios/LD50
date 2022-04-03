@@ -9,3 +9,5 @@ moveVariance = 2;
 
 hp = 4;
 hpVariance = 2;
+
+sprite_index = choose(sprGhost, sprGhost2);
