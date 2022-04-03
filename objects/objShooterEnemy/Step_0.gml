@@ -11,6 +11,11 @@ if (!isPaused) {
     
     instance_create_depth(x, y, depth, objShooterExplodingGhost);
     
+    with (objShooterControl) {
+      gameScore += 10;
+    }
+    
+    
     instance_destroy();
   }
 

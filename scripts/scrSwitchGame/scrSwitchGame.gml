@@ -4,7 +4,14 @@
 function scrSwitchGame(whichGame){
 
   //TODO: Do any internal score cleanups or anything before destruction
-
+  
+  //Just add game score to total score  
+  if (instance_number(objControlParent) > 0) {
+    objMetaControl.totalScore += objControlParent.gameScore;
+  }
+  
+  
+  
   //Destroy all displayed objects
   with (objInternalItem) {
     instance_destroy();

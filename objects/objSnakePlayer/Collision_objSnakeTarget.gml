@@ -8,3 +8,7 @@ with (other) {
 scrSpawnSnakeTarget();
 
 maxParts += 1;
+var pts = other.numPoints;
+with (objSnakeControl) {
+  gameScore += pts; 
+}

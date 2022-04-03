@@ -3,6 +3,8 @@
 
 scrInitialize();
 
+totalScore = 0;
+
 
 //Probably temp, pixel lifespan in number of ticks
 pixelLife = 200;

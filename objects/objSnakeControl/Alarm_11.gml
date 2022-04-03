@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-numPoints = 10;
+gameScore += objSnakePlayer.maxParts;
+
