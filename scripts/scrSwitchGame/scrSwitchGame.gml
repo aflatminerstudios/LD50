@@ -21,3 +21,4 @@ function scrSwitchGame(whichGame){
  instance_create_depth(0, 0, 0, ds_map_find_value(objMetaControl.controlObjects, whichGame));
 
 }
+
