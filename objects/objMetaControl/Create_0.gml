@@ -43,7 +43,7 @@ for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
 
 //Set up game switching
 controlObjects = ds_map_create();
-currentGame = "Shooter";
+currentGame = "Snake";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);
