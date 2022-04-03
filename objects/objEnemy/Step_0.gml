@@ -8,6 +8,6 @@ if (!isPaused) {
 
 
   
-  move_towards_point(targetX + r1, targetY + r2, moveSpeed);
+  move_towards_point(targetX, targetY, moveSpeed);
 
 }

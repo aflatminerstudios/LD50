@@ -40,10 +40,14 @@
     {"id":{"name":"objShooterBullet","path":"objects/objShooterBullet/objShooterBullet.yy",},"order":2,},
     {"id":{"name":"objTestParent","path":"objects/objTestParent/objTestParent.yy",},"order":1,},
     {"id":{"name":"sprFruit","path":"sprites/sprFruit/sprFruit.yy",},"order":2,},
+<<<<<<< HEAD
     {"id":{"name":"sndBulletHit","path":"sounds/sndBulletHit/sndBulletHit.yy",},"order":0,},
     {"id":{"name":"objShooterPlayer","path":"objects/objShooterPlayer/objShooterPlayer.yy",},"order":0,},
     {"id":{"name":"scrIsOutOfBounds","path":"scripts/scrIsOutOfBounds/scrIsOutOfBounds.yy",},"order":3,},
+=======
+    {"id":{"name":"scrIsOutOfBounds","path":"scripts/scrIsOutOfBounds/scrIsOutOfBounds.yy",},"order":4,},
     {"id":{"name":"sprGameFrame800x600","path":"sprites/sprGameFrame800x600/sprGameFrame800x600.yy",},"order":0,},
+>>>>>>> main
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -91,9 +95,12 @@
     {"folderPath":"folders/Objects/Control Objects.yy","order":0,"resourceVersion":"1.0","name":"Control Objects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Snake.yy","order":4,"resourceVersion":"1.0","name":"Snake","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Snake.yy","order":4,"resourceVersion":"1.0","name":"Snake","tags":[],"resourceType":"GMFolder",},
+<<<<<<< HEAD
     {"folderPath":"folders/Objects/ShooterGame.yy","order":5,"resourceVersion":"1.0","name":"ShooterGame","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Shooter.yy","order":6,"resourceVersion":"1.0","name":"Shooter","tags":[],"resourceType":"GMFolder",},
+=======
     {"folderPath":"folders/Sprites/MetaGame.yy","order":5,"resourceVersion":"1.0","name":"MetaGame","tags":[],"resourceType":"GMFolder",},
+>>>>>>> main
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

@@ -11,8 +11,8 @@ var bottomRight = scrCoordsScreenToGame(x + sprite_width / 2, y + sprite_height 
 //show_debug_message("bottomRight: " + string(bottomRight[0]) + ", " + string(bottomRight[1]));
 
 
-for (var i = topLeft[0]; i <= bottomRight[0]; i++) {
-  for (var j = topLeft[1]; j <= bottomRight[1]; j++) {    
+for (var i = topLeft[0]; i <= bottomRight[0] && i < objMetaControl.numHPixels; i++) {
+  for (var j = topLeft[1]; j <= bottomRight[1] && j < objMetaControl.numHPixels; j++) {    
     //show_debug_message(string(i) + ", " + string(j));
     
     if (i >= 0 && j >= 0) {

@@ -52,7 +52,7 @@ if (!isPaused) {
     var size = ds_list_size(partList);
   
     for (var i = 0; i < size - maxParts; i++) {
-      show_debug_message("Destroying " + string(i));
+      
       with (partList[| i]) {
         instance_destroy(); 
       }

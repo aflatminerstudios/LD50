@@ -19,7 +19,7 @@ function scrSpawnShooterBullet(objSource, objDestination) {
 function scrSpawnShooterEnemy(objRoomCoords) {
   var whichDir = irandom_range(1, 4);
   
-  var otherDist = irandom(40);
+  var otherDist = irandom(10);
   
   var posX = irandom(objRoomCoords.screenWidth);;
   var posY = irandom(objRoomCoords.screenHeight);

@@ -4,16 +4,16 @@
 function scrIsOutOfBounds(instance, boundsObject){
   
   with (instance) {
-    if (x - sprite_width / 2 < boundsObject.boundLeft) {
+    if (bbox_left < boundsObject.boundLeft) {
       return true;
     }
-    if (x + sprite_width / 2 > boundsObject.boundRight) {
+    if (bbox_right > boundsObject.boundRight) {
       return true;
     }
-    if (y - sprite_height / 2 < boundsObject.boundUp) {
+    if (bbox_top < boundsObject.boundUp) {
       return true;
     }
-    if (y + sprite_height / 2 > boundsObject.boundDown) {
+    if (bbox_bottom > boundsObject.boundDown) {
       return true;
     }
   }

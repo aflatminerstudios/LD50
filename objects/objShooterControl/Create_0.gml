@@ -5,9 +5,9 @@
 event_inherited();
 
 
-instance_create_layer(250, 250, "Instances", objShooterPlayer);
-instance_create_layer(1000, 500, "Instances", objShooterEnemy);
-instance_create_layer(700, 60, "Instances", objShooterEnemy);
+instance_create_layer(objMetaControl.boundLeft + 100, objMetaControl.boundUp + 100, "Instances", objShooterPlayer);
+scrSpawnShooterEnemy(objMetaControl);
+scrSpawnShooterEnemy(objMetaControl);
 
 
 maxEnemies = 8;
@@ -28,3 +28,4 @@ alarm[0] = minSpawnTime;
 alarm[1] = spawnTime;
 
 alarm[2] = improveTime;
+
