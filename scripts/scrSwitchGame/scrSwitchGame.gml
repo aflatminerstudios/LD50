@@ -10,7 +10,13 @@ function scrSwitchGame(whichGame){
     objMetaControl.totalScore += objControlParent.gameScore;
   }
   
+  with (objGameCart) {
+    instance_destroy();
+  }
   
+  with (objGameSelectBG) {
+    instance_destroy(); 
+  }
   
   //Destroy all displayed objects
   with (objInternalItem) {

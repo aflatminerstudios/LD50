@@ -10,4 +10,6 @@ with (objGameCart) {
 sprite_index = selectedSprite;
 
 objGameSelectControl.whichCart = cartNum;
+scrSwitchGame(gameName);
+
 

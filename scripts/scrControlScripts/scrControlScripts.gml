@@ -83,13 +83,13 @@ function scrCheckDown() {
 }
 
 function scrCheckAction() {
-  if (keyboard_check(vk_space)) {
+  if (keyboard_check(vk_space) || keyboard_check_pressed(vk_enter)) {
     return true; 
   }
 }
 
 function scrCheckActionPressed() {
-  if (keyboard_check_pressed(vk_space)) {
+  if (keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter)) {
     return true; 
   }
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprFruit",
-    "path": "sprites/sprFruit/sprFruit.yy",
+    "name": "sprTarget",
+    "path": "sprites/sprTarget/sprTarget.yy",
   },
   "solid": false,
   "visible": true,
