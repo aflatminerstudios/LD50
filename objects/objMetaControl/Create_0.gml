@@ -18,7 +18,10 @@ pixelWidth = 2;
 pixelHeight = 2;
 
 oldMaxCol = -1;
-
+curGlitchLine = -1;
+stepsToJump = 3;
+jumpStep = 0;
+burntColList = ds_list_create();
 
 
 //boundLeft = (room_width - screenWidth) / 2;

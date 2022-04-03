@@ -7,31 +7,63 @@ var chanceToFullyRevive = 0.0001;
 var chanceToRevive = 0.0005;
 var reviveMultiplier = 0.5;
 
-var maxSum = 15;
+var maxSum = 5;
 var maxIndex = -1;
+var pctToBurn = 0.7;
+var minToBurn = 1.2;
+var burnThreshold = 1;
 var lineList = ds_list_create();
 
 for (var i = 0; i < numHPixels; i++) {
+  if (ds_list_find_index(burntColList, i) != -1) {
+    continue; 
+  }
   var colSum = ds_grid_get_sum(pixelGrid, i, 0, i , numVPixels - 1);
+  var colMax = ds_grid_get_max(pixelGrid, i, 0, i , numVPixels - 1);
   if (colSum > maxSum) {
      maxSum = colSum;
-     maxIndex = i;     
+     maxIndex = i;
+  }
+  if (colMax > minToBurn) {
+    var count = 0;
+    for (var j = 0; j < numVPixels; j++) {
+      if (ds_grid_get(pixelGrid, i, j) > burnThreshold) {
+        count++; 
+      }
+    }
+    var pct = count / numVPixels;
+    if (pct > pctToBurn) {
+      ds_list_add(burntColList, i);
+    }
   }
 }
 
-var lineIndex = (maxIndex == -1) ? -1 : oldMaxCol + sign(maxIndex - oldMaxCol);
-oldMaxCol = lineIndex;
+ds_list_copy(lineList, burntColList);
+
+curGlitchLine = (maxIndex == -1) ? -1 : oldMaxCol + sign(maxIndex - oldMaxCol);
+oldMaxCol = curGlitchLine;
+var lineIndex = curGlitchLine;
+if (jumpStep == 0) {
+  lineIndex = (maxIndex == -1) ? -1 : oldMaxCol + sign(maxIndex - curGlitchLine) * irandom_range(-3, numHPixels - curGlitchLine);
+}
+
+jumpStep = (jumpStep + 1) % stepsToJump;
+
 ds_list_add(lineList, lineIndex);
 
 for (var i = 0; i < numHPixels; i++) {
   if (ds_list_find_index(lineList, i) != -1) {
+   
     for (var j = 0; j < numVPixels; j++) {
       var cArray = scrCoordsGameToScreen(i, j, objMetaControl);
       
-      //If column has maximum sum, draw it as black line
-      draw_set_color(c_black);
+      //If column has maximum sum, draw it as a line
+      draw_set_color(#94B26B);
+      
       draw_rectangle(cArray[0], cArray[1], cArray[0] + pixelWidth -1 , cArray[1] + pixelHeight - 1, false);
+      
     }
+    
   } else {
   for (var j = 0; j < numVPixels; j++) {
     
