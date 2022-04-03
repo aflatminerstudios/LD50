@@ -9,8 +9,8 @@ var reviveMultiplier = 0.5;
 
 var maxSum = 5;
 var maxIndex = -1;
-var pctToBurn = 0.1;
-var minToBurn = 1;
+var pctToBurn = 0.7;
+var minToBurn = 1.2;
 var burnThreshold = 1;
 var lineList = ds_list_create();
 
