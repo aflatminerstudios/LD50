@@ -11,7 +11,7 @@ function scrCoordsScreenToGame(screenX, screenY, metaControl){
   
   // Convert to "game pixel size"
   screenX = floor(screenX / metaControl.pixelWidth);
-  screenY = floor(screenY / metaControl.pixelWidth);
+  screenY = floor(screenY / metaControl.pixelHeight);
   
   var returnArray;
   returnArray[0] = screenX;

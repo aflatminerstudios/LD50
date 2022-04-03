@@ -9,18 +9,23 @@ pixelLife = 200;
 
 
 // Set up screen and grid
-screenWidth = 1200;
-screenHeight = 600;
+screenWidth = 200;
+screenHeight = 200;
 
-pixelWidth = 20;
-pixelHeight = 20;
+pixelWidth = 8;
+pixelHeight = 8;
 
 
 
-boundLeft = (room_width - screenWidth) / 2;
-boundRight = room_width - ((room_width - screenWidth) / 2);
-boundUp = (room_height - screenHeight) / 2;
-boundDown = room_height - ((room_height - screenHeight) / 2);
+//boundLeft = (room_width - screenWidth) / 2;
+//boundRight = room_width - ((room_width - screenWidth) / 2);
+//boundUp = (room_height - screenHeight) / 2;
+//boundDown = room_height - ((room_height - screenHeight) / 2);
+
+boundLeft = 0;
+boundRight = boundLeft + screenWidth;
+boundUp = room_height + screenHeight; // bottom of the room + one screen's worth of empty space
+boundDown = boundUp + screenHeight
 
 numHPixels = screenWidth / pixelWidth;
 numVPixels = screenHeight / pixelHeight;
