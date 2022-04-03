@@ -25,3 +25,6 @@ carts[1].sprite_index = carts[1].unselectedSprite;
 numCarts = array_length(carts);
 
 whichCart = 0;
+
+//Check for things still existing
+alarm[0] = 1;

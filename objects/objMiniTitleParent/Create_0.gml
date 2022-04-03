@@ -8,3 +8,5 @@ alarm[0] = room_speed / 2;
 ready = false;
 
 controlObject = objSnakeControl;
+
+

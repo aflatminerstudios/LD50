@@ -22,10 +22,18 @@ function scrSwitchGame(whichGame){
   with (objInternalItem) {
     instance_destroy();
   }
+  
+  with (objInternalNonBurn) {
+    instance_destroy(); 
+  }
+
 
   //Destroy control objects
   with (objControlParent) {
     instance_destroy(); 
+  }
+  with (objMiniTitleParent) {
+    instance_destroy();
   }
   
  objMetaControl.currentGame = whichGame;

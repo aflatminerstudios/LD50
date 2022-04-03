@@ -18,6 +18,7 @@
     {"id":{"name":"sprSnakeBody3","path":"sprites/sprSnakeBody3/sprSnakeBody3.yy",},"order":4,},
     {"id":{"name":"sndSnakeDeath","path":"sounds/sndSnakeDeath/sndSnakeDeath.yy",},"order":1,},
     {"id":{"name":"objShooterControl","path":"objects/objShooterControl/objShooterControl.yy",},"order":3,},
+    {"id":{"name":"objInternalNonBurn","path":"objects/objInternalNonBurn/objInternalNonBurn.yy",},"order":1,},
     {"id":{"name":"objShooterEnemy","path":"objects/objShooterEnemy/objShooterEnemy.yy",},"order":1,},
     {"id":{"name":"sndBulletShoot","path":"sounds/sndBulletShoot/sndBulletShoot.yy",},"order":3,},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":1,},
