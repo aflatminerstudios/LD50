@@ -55,12 +55,13 @@ for (var i = 0; i < numBurntPixel; i++) {
 
 //Set up game switching
 controlObjects = ds_map_create();
-currentGame = "GameSelect";
+currentGame = "BulletHell";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);
 ds_map_add(controlObjects, "Snake", objSnakeTitle);
 ds_map_add(controlObjects, "Shooter", objShooterTitle);
+ds_map_add(controlObjects, "BulletHell", objBulletHControl);
 ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 
 scrSwitchGame(currentGame);
