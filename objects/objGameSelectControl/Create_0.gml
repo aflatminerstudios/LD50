@@ -4,6 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
+//Stop all music?
+audio_stop_all();
+
+
 scoreIncrease = 0;
 
 view_visible[1] = false;

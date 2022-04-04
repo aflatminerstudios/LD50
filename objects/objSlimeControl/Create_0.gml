@@ -35,7 +35,7 @@ for (var i = 0; i < ds_grid_width(slimeGrid); i++) {
 slimeAddInterval = 10; // Time between checks for adding new slimes
 idealSlimeCount = 1; // Goes up over time, if the current count is less than this, add a slime
 slimeCountIncreaseRate = 0.003; // Add to idealSlimeCount each frame
-slimeEscapeTime = 5*room_speed; // Goes down over time
+slimeEscapeTime = 4*room_speed; // Goes down over time
 slimeEscapeMultiplier = 0.9998; // Multiply slimeEscapeTime by this every frame
 // Add an initial slime and kick off internal alarm for checking if we have enough slimes
 alarm[1] = 1;
