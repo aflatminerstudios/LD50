@@ -22,12 +22,19 @@ carts[1].selectedSprite = sprShooterCartSelected;
 carts[1].unselectedSprite = sprShooterCart;
 carts[1].sprite_index = carts[1].unselectedSprite;
 
-carts[2] = instance_create_layer(300, 320, "Instances", objGameCart);
+carts[2] = instance_create_layer(300, 420, "Instances", objGameCart);
 carts[2].cartNum = 2;
 carts[2].gameName = "BulletHell";
 carts[2].selectedSprite = sprBulletHCartSelected;
 carts[2].unselectedSprite = sprBulletHCart;
 carts[2].sprite_index = carts[2].unselectedSprite;
+
+carts[3] = instance_create_layer(500, 420, "Instances", objGameCart);
+carts[3].cartNum = 2;
+carts[3].gameName = "Credits";
+carts[3].selectedSprite = sprCreditsCartSelected;
+carts[3].unselectedSprite = sprCreditsCart;
+carts[3].sprite_index = carts[3].unselectedSprite;
 
 numCarts = array_length(carts);
 
