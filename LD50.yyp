@@ -31,6 +31,7 @@
     {"id":{"name":"objInternalItem","path":"objects/objInternalItem/objInternalItem.yy",},"order":0,},
     {"id":{"name":"sprDPadUp","path":"sprites/sprDPadUp/sprDPadUp.yy",},"order":6,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
+    {"id":{"name":"sprSlimeBG","path":"sprites/sprSlimeBG/sprSlimeBG.yy",},"order":4,},
     {"id":{"name":"sprSnakeBody3","path":"sprites/sprSnakeBody3/sprSnakeBody3.yy",},"order":4,},
     {"id":{"name":"sprSlimeCursor","path":"sprites/sprSlimeCursor/sprSlimeCursor.yy",},"order":0,},
     {"id":{"name":"sprSlimeEnemy3","path":"sprites/sprSlimeEnemy3/sprSlimeEnemy3.yy",},"order":5,},
