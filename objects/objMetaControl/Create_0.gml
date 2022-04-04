@@ -5,7 +5,6 @@ scrInitialize();
 
 totalScore = 0;
 
-
 //Probably temp, pixel lifespan in number of ticks
 pixelLife = 200;
 
@@ -41,10 +40,23 @@ pixelGrid = ds_grid_create(numHPixels, numVPixels);
 
 for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
   for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
-    ds_grid_set(pixelGrid, i, j, 0.0); 
+    ds_grid_set(pixelGrid, i, j, random(0.2)); 
   }
 }
 
+var numBurntPixel = irandom_range(10,20);
+for (var i = 0; i < numBurntPixel; i++) {
+  ds_grid_set(pixelGrid, irandom_range(0, numHPixels), irandom_range(0, numVPixels), random_range(0.8, 1.4));
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+//For button drawing
+
+/*dPad = sprDPadNeutral;
+button = sprButtonUp;*/
+tape = sprTape;
 
 /////////////////////////////////////////////////////////////////////////////////
 
@@ -56,11 +68,17 @@ currentGame = "GameSelect";
 ds_map_add(controlObjects, "Test", objTestParent);
 ds_map_add(controlObjects, "Snake", objSnakeTitle);
 ds_map_add(controlObjects, "Shooter", objShooterTitle);
+ds_map_add(controlObjects, "BulletHell", objBulletHTitle);
 ds_map_add(controlObjects, "Slime", objSlimeTitle);
 ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
+ds_map_add(controlObjects, "Credits", objCreditsControl);
 
 scrSwitchGame(currentGame);
 
+
+instance_create_depth(590, 508, depth + 50, objButton);
+instance_create_depth(258, 524, depth + 50, objDPad);
+//instance_create_depth(454, 0, depth + 50, objTape);
 
 
 

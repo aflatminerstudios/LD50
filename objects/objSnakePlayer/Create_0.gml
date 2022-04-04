@@ -5,8 +5,8 @@
 event_inherited();
 
 
-turnDir = 90;
-oldDir = 90;
+turnDir = 0;
+oldDir = 0;
 
 
 maxParts = 1;

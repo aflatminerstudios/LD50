@@ -12,3 +12,5 @@ var pts = other.numPoints;
 with (objSnakeControl) {
   gameScore += pts; 
 }
+
+audio_play_sound(sndSnakeGetTarget, 1, false);

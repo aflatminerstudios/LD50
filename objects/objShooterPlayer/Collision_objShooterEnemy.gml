@@ -3,6 +3,6 @@
 
 //show_message("You lose!");
 
-
+audio_play_sound(sndShooterDie, 0, false);
 scrSwitchGame("Shooter");
 
