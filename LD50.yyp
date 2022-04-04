@@ -116,6 +116,8 @@
     {"id":{"name":"sprShooterTitle","path":"sprites/sprShooterTitle/sprShooterTitle.yy",},"order":1,},
     {"id":{"name":"scrInitialize","path":"scripts/scrInitialize/scrInitialize.yy",},"order":1,},
     {"id":{"name":"sprSnakeHead","path":"sprites/sprSnakeHead/sprSnakeHead.yy",},"order":0,},
+    {"id":{"name":"sndBulletHTowerRepair","path":"sounds/sndBulletHTowerRepair/sndBulletHTowerRepair.yy",},"order":6,},
+    {"id":{"name":"sndBulletHTowerDie","path":"sounds/sndBulletHTowerDie/sndBulletHTowerDie.yy",},"order":5,},
     {"id":{"name":"sndBulletHPickup","path":"sounds/sndBulletHPickup/sndBulletHPickup.yy",},"order":0,},
     {"id":{"name":"sprGSBackground","path":"sprites/sprGSBackground/sprGSBackground.yy",},"order":0,},
     {"id":{"name":"sprTitleScren","path":"sprites/sprTitleScren/sprTitleScren.yy",},"order":1,},

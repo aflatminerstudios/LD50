@@ -23,6 +23,11 @@ function scrBulletHLaunchBomb(positionObj, isSpecial) {
   if (hp <= 0) {
    damaged = true;
    hp = irandom_range(minHP, maxHP);   
+   
+   if (!audio_is_playing(sndBulletHTowerDie)) {
+    audio_play_sound(sndBulletHTowerDie, 1, false); 
+   }
+   
    sprite_index = sprBulletHTowerDamaged;
    alarm[1] = irandom_range(minRepairTime, maxRepairTime);
    points += 20;

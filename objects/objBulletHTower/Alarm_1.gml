@@ -3,3 +3,7 @@
 
 sprite_index = sprBulletHTower;
 damaged = false;
+
+if (!audio_is_playing(sndBulletHTowerRepair)) {
+  audio_play_sound(sndBulletHTowerRepair, 1, false); 
+}

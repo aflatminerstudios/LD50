@@ -63,7 +63,7 @@ tape = sprTape;
 //Set up game switching
 controlObjects = ds_map_create();
 backgrounds = ds_map_create();
-currentGame = "GameSelect";
+currentGame = "Title";
 
 
 ds_map_add(controlObjects, "Test", objTestParent);

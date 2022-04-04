@@ -7,11 +7,28 @@ if (ds_list_find_index(input, "gameSelectPressed") != -1) {
   scrSwitchGame("GameSelect"); 
 }
 
+
+//TODO: Comment out debug keys
 if (keyboard_check_pressed(ord("M"))) {
   audio_master_gain(0);
 }
 if (keyboard_check_pressed(ord("Z"))) {
   audio_master_gain(1);
+}
+if (keyboard_check_pressed(ord("O"))) {
+  totalScore = 0; 
+}
+if (keyboard_check_pressed(ord("P"))) {
+   for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
+      for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
+        ds_grid_set(pixelGrid, i, j, random(0.2)); 
+      }
+    }
+
+    var numBurntPixel = irandom_range(10,20);
+    for (var i = 0; i < numBurntPixel; i++) {
+      ds_grid_set(pixelGrid, irandom_range(0, numHPixels), irandom_range(0, numVPixels), random_range(0.8, 1.4));
+    }
 }
 
 
