@@ -27,7 +27,7 @@ carts[2].cartNum = 2;
 carts[2].gameName = "BulletHell";
 carts[2].selectedSprite = sprBulletHCartSelected;
 carts[2].unselectedSprite = sprBulletHCart;
-carts[2].sprite_index = carts[1].unselectedSprite;
+carts[2].sprite_index = carts[2].unselectedSprite;
 
 numCarts = array_length(carts);
 
