@@ -6,8 +6,8 @@ event_inherited();
 
 moveSpeed = 4;
 
-bulletX = 4;
-bulletY = -11;
+bulletX = 0;
+bulletY = 3;
 
 shootingTimer = room_speed / 3;
 isShooting = false;

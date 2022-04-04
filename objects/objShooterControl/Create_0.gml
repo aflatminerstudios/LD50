@@ -11,7 +11,7 @@ scrSpawnShooterEnemy(objMetaControl);
 
 
 maxEnemies = 8;
-minEnemies = 1;
+minEnemies = 2;
 
 
 baseSpawnChance = 0.4;
@@ -20,7 +20,7 @@ minSpawnTime = room_speed / 12;
 baseSpawnTime = room_speed / 2;
 spawnTime = baseSpawnTime;
 
-improveTime = room_speed * 2;
+improveTime = room_speed;
 
 
 alarm[0] = minSpawnTime;

@@ -9,7 +9,7 @@ function scrInitialize() {
 	
 	global.dev_mode = false;
 	//audio_master_gain(0);
-
+  
   
   randomize();
 }
