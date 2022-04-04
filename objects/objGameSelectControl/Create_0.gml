@@ -22,6 +22,13 @@ carts[1].selectedSprite = sprShooterCartSelected;
 carts[1].unselectedSprite = sprShooterCart;
 carts[1].sprite_index = carts[1].unselectedSprite;
 
+carts[2] = instance_create_layer(300, 420, "Instances", objGameCart);
+carts[2].cartNum = 2;
+carts[2].gameName = "Slime";
+carts[2].selectedSprite = sprSlimeCartSelected;
+carts[2].unselectedSprite = sprSlimeCart;
+carts[2].sprite_index = carts[2].unselectedSprite;
+
 numCarts = array_length(carts);
 
 whichCart = 0;
