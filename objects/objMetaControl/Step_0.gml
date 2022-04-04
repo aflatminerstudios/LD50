@@ -13,3 +13,25 @@ if (keyboard_check_pressed(ord("M"))) {
 if (keyboard_check_pressed(ord("Z"))) {
   audio_master_gain(1);
 }
+
+
+/*
+if (scrCheckAction()) {
+  button = sprButtonDown; 
+} else {
+  button = sprButtonUp; 
+}
+
+
+if (scrCheckLeft()) {
+  dPad = sprDPadLeft; 
+} else if (scrCheckRight()) {
+  dPad = sprDPadRight; 
+} else if (scrCheckUp()) {
+  dPad = sprDPadUp;
+} else if (scrCheckDown()) {
+  dPad = sprDPadDown; 
+} else {
+  dPad = sprDPadNeutral; 
+}
+*/

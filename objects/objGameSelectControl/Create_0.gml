@@ -6,7 +6,7 @@ event_inherited();
 
 view_visible[1] = false;
 
-instance_create_depth(400, 320, depth + 1, objGameSelectBG);
+instance_create_depth(400, 320, depth , objGameSelectBG);
 
 carts[0] = instance_create_layer(300, 220, "Instances", objGameCart);
 carts[0].cartNum = 0;

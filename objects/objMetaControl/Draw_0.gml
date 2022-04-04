@@ -104,4 +104,6 @@ for (var i = 0; i < numHPixels; i++) {
   }
 }
 
+//draw_sprite(dPad, 0, 258, 524);
+//draw_sprite(button, 0, 590, 508);
 

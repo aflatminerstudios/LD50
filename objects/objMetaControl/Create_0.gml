@@ -5,7 +5,6 @@ scrInitialize();
 
 totalScore = 0;
 
-
 //Probably temp, pixel lifespan in number of ticks
 pixelLife = 200;
 
@@ -55,8 +54,8 @@ for (var i = 0; i < numBurntPixel; i++) {
 
 //For button drawing
 
-dPad = sprDPadNeutral;
-button = sprButtonUp;
+/*dPad = sprDPadNeutral;
+button = sprButtonUp;*/
 tape = sprTape;
 
 /////////////////////////////////////////////////////////////////////////////////
@@ -76,9 +75,9 @@ ds_map_add(controlObjects, "Credits", objCreditsControl);
 scrSwitchGame(currentGame);
 
 
-
-
-
+instance_create_depth(590, 508, depth + 50, objButton);
+instance_create_depth(258, 524, depth + 50, objDPad);
+//instance_create_depth(454, 0, depth + 50, objTape);
 
 
 
