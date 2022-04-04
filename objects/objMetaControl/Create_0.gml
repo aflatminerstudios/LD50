@@ -62,6 +62,7 @@ tape = sprTape;
 
 //Set up game switching
 controlObjects = ds_map_create();
+backgrounds = ds_map_create();
 currentGame = "GameSelect";
 
 
@@ -73,12 +74,23 @@ ds_map_add(controlObjects, "Slime", objSlimeTitle);
 ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 ds_map_add(controlObjects, "Credits", objCreditsControl);
 
+ds_map_add(backgrounds, "Test", sprGeneralBackground);
+ds_map_add(backgrounds, "Snake", sprSnakeBackground);
+ds_map_add(backgrounds, "Shooter", sprGeneralBackground);
+ds_map_add(backgrounds, "BulletHell", sprGeneralBackground);
+ds_map_add(backgrounds, "GameSelect", sprGeneralBackground);
+ds_map_add(backgrounds, "Credits", sprGeneralBackground);
+
+bgLayer = layer_background_get_id("Backgrounds_1");
+
 scrSwitchGame(currentGame);
 
 
 instance_create_depth(590, 508, depth + 50, objButton);
 instance_create_depth(258, 524, depth + 50, objDPad);
 //instance_create_depth(454, 0, depth + 50, objTape);
+
+instance_create_depth(0, 0, depth + 50, objMessages);
 
 
 

@@ -104,6 +104,8 @@ for (var i = 0; i < numHPixels; i++) {
   }
 }
 
+ds_list_destroy(lineList);
+
 //draw_sprite(dPad, 0, 258, 524);
 //draw_sprite(button, 0, 590, 508);
 

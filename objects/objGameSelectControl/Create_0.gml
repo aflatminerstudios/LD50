@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+scoreIncrease = 0;
+
 view_visible[1] = false;
 
 instance_create_depth(400, 320, depth , objGameSelectBG);

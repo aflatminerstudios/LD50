@@ -16,7 +16,3 @@ turnSpeed = room_speed / 5;
 alarm[0] = turnSpeed;
 
 partList = ds_list_create();
-
-
-
-

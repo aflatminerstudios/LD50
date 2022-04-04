@@ -35,3 +35,4 @@ if (scrCheckLeft()) {
   dPad = sprDPadNeutral; 
 }
 */
+ds_list_destroy(input);
