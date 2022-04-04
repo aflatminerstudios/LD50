@@ -4,7 +4,7 @@
 var numBombs = instance_number(objBulletHBomb) + instance_number(objBulletHSpecialBomb);
 
 if (numBombs == 0) {
-  var type = random(1) < 0.7 ? objBulletHBomb : objBulletHSpecialBomb;
+  var type = random(1) < 0.8 ? objBulletHBomb : objBulletHSpecialBomb;
   var posX = objMetaControl.boundLeft + irandom_range(25, 175);
   var posY = objMetaControl.boundUp + irandom_range(25, 175);
   
