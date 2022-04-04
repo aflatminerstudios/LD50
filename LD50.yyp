@@ -122,6 +122,7 @@
     {"id":{"name":"sprSlimeHammerDown","path":"sprites/sprSlimeHammerDown/sprSlimeHammerDown.yy",},"order":2,},
     {"id":{"name":"sprSlimeCartSelected","path":"sprites/sprSlimeCartSelected/sprSlimeCartSelected.yy",},"order":7,},
     {"id":{"name":"scrAflatLibLogging","path":"scripts/scrAflatLibLogging/scrAflatLibLogging.yy",},"order":2,},
+    {"id":{"name":"sndMainMusic","path":"sounds/sndMainMusic/sndMainMusic.yy",},"order":8,},
     {"id":{"name":"sprSnakeTurnLeft","path":"sprites/sprSnakeTurnLeft/sprSnakeTurnLeft.yy",},"order":5,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":1,},
     {"id":{"name":"sprBulletHCartSelected","path":"sprites/sprBulletHCartSelected/sprBulletHCartSelected.yy",},"order":6,},

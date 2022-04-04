@@ -4,8 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-//Stop all music?
-audio_stop_all();
+//Will only continue playing main music, will stop anything else
+if (!audio_is_playing(sndMainMusic)) {
+  audio_stop_all();
+}
 
 
 scoreIncrease = 0;
@@ -62,3 +64,6 @@ whichCart = 0;
 
 //Check for things still existing
 alarm[0] = 1;
+
+
+
