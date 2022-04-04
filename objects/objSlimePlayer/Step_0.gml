@@ -64,16 +64,20 @@ if (!isPaused) {
 		  var hitSlimeInstance = collision_point(x, y, objSlimeEnemy, false, false);
 		  var isHit = (hitSlimeInstance != noone);
 		  if (isHit) {
-			audio_play_sound(sndSlimeHammerHit, 1, false);  
-			// Squish the slime
-			hitSlimeInstance.alarm[0] = hitSlimeInstance.squishedCoolDownAmount;
-			hitSlimeInstance.isSquished = true;
+			  audio_play_sound(sndSlimeHammerHit, 1, false);  
+        
+        if (hitSlimeInstance.isSquished) {
+          hitSlimeInstance.alarm[0] = 1;
+        } else {  
+      		// Squish the slime
+      		hitSlimeInstance.alarm[0] = hitSlimeInstance.squishedCoolDownAmount;
+      		hitSlimeInstance.isSquished = true;
 			
-			// Add to the score
-			with (objSlimeControl) {
-				gameScore += 10;
-			}
-			
+      		// Add to the score
+      		with (objSlimeControl) {
+      			gameScore += 10;
+      		}
+        }
 		  } else {
 			audio_play_sound(sndSlimeHammerMiss, 1, false);
 		  }
