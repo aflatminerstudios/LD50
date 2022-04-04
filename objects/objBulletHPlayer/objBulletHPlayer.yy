@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprHedgehog",
-    "path": "sprites/sprHedgehog/sprHedgehog.yy",
+    "name": "sprBulletHPlayer",
+    "path": "sprites/sprBulletHPlayer/sprBulletHPlayer.yy",
   },
   "solid": false,
   "visible": true,

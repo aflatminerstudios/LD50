@@ -75,8 +75,8 @@ ds_map_add(controlObjects, "Credits", objCreditsControl);
 
 ds_map_add(backgrounds, "Test", sprGeneralBackground);
 ds_map_add(backgrounds, "Snake", sprSnakeBackground);
-ds_map_add(backgrounds, "Shooter", sprGeneralBackground);
-ds_map_add(backgrounds, "BulletHell", sprGeneralBackground);
+ds_map_add(backgrounds, "Shooter", sprHogBG);
+ds_map_add(backgrounds, "BulletHell", sprBulletBG);
 ds_map_add(backgrounds, "GameSelect", sprGeneralBackground);
 ds_map_add(backgrounds, "Credits", sprGeneralBackground);
 
