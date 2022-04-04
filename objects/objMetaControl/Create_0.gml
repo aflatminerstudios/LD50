@@ -30,7 +30,7 @@ burntColList = ds_list_create();
 
 boundLeft = 0;
 boundRight = boundLeft + screenWidth;
-boundUp = room_height + screenHeight; // bottom of the room + one screen's worth of empty space
+boundUp = 600 + screenHeight; // bottom of the room + one screen's worth of empty space
 boundDown = boundUp + screenHeight
 
 numHPixels = screenWidth / pixelWidth;

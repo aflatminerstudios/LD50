@@ -16,3 +16,4 @@ bombSpawnMax = room_speed;
 
 alarm[1] = irandom_range(bombSpawnMin, bombSpawnMax);
 
+scrShowGameBackgroundLayer("BulletHBackground");

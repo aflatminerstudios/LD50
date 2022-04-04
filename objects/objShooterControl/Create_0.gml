@@ -29,3 +29,4 @@ alarm[1] = spawnTime;
 
 alarm[2] = improveTime;
 
+scrShowGameBackgroundLayer("ShooterBackground");
