@@ -31,7 +31,7 @@ function scrBulletHLaunchBomb(positionObj, isSpecial) {
  
 
 if (isSpecial) {
-  scrRepairAtPlayer(player, 0.5, 10);
+  scrRepairAtPosition(positionObj, 0.5, 10);
 }
  
  with (objBulletHControl) {
@@ -40,11 +40,11 @@ if (isSpecial) {
  
 }
 
-function scrRepairAtPlayer(player, strength, range) {
+function scrRepairAtPosition(positionObj, strength, range) {
   var pixelGrid = objMetaControl.pixelGrid;
   var burntCols = objMetaControl.burntColList;
   
-  var cArray = scrCoordsScreenToGame(player.x, player.y, objMetaControl);
+  var cArray = scrCoordsScreenToGame(positionObj.x, positionObj.y, objMetaControl);
   var gridX = cArray[0];
   var gridY = cArray[1];
   for (var i = 1; i < range; ++i) {

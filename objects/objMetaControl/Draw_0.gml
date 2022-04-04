@@ -74,6 +74,9 @@ for (var i = 0; i < numHPixels; i++) {
     
       //Draw this pixel if grid is greater than 1
   	var pixelAge = ds_grid_get(pixelGrid, i, j)
+    if (pixelAge < 0) {
+      ds_grid_set(pixelGrid, i, j, 0.0);
+    }
       if (pixelAge >= 1) {
         var cArray = scrCoordsGameToScreen(i, j, objMetaControl);
 	  

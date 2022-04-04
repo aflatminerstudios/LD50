@@ -139,7 +139,7 @@
     {"folderPath":"folders/Objects/TitleControls.yy","order":8,"resourceVersion":"1.0","name":"TitleControls","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Snake.yy","order":1,"resourceVersion":"1.0","name":"Snake","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Shooter.yy","order":2,"resourceVersion":"1.0","name":"Shooter","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/Bulleth.yy","order":9,"resourceVersion":"1.0","name":"Bulleth","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/BulletHell.yy","order":9,"resourceVersion":"1.0","name":"BulletHell","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/BulletHell.yy","order":8,"resourceVersion":"1.0","name":"BulletHell","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/BulletHell.yy","order":6,"resourceVersion":"1.0","name":"BulletHell","tags":[],"resourceType":"GMFolder",},
   ],

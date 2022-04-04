@@ -10,3 +10,9 @@ instance_create_layer(objMetaControl.boundLeft + 80, objMetaControl.boundUp + 14
 instance_create_layer(objMetaControl.boundLeft + 30, objMetaControl.boundUp + 170, "Instances", objBulletHTower);
 //instance_create_layer(objMetaControl.boundRight - 30, objMetaControl.boundUp + 30, "Instances", objBulletHTower);
 instance_create_layer(objMetaControl.boundRight - 30, objMetaControl.boundUp + 170, "Instances", objBulletHTower);
+
+bombSpawnMin = room_speed / 3;
+bombSpawnMax = room_speed ;
+
+alarm[1] = irandom_range(bombSpawnMin, bombSpawnMax);
+

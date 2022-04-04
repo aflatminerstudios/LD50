@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Bulleth",
-    "path": "folders/Objects/Bulleth.yy",
+    "name": "BulletHell",
+    "path": "folders/Objects/BulletHell.yy",
   },
   "resourceVersion": "1.0",
   "name": "objScreenFlash",

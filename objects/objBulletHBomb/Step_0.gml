@@ -4,9 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-moveSpeed = 4;
-
-maxBombs = 1;
-curBombs = 1;
-curSBombs = 0;
-
+if (timeFlashing >= 0) {
+  timeFlashing++; 
+}
