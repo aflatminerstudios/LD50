@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+
 scoreIncrease = 0;
 
 view_visible[1] = false;
@@ -31,11 +32,18 @@ carts[2].unselectedSprite = sprBulletHCart;
 carts[2].sprite_index = carts[2].unselectedSprite;
 
 carts[3] = instance_create_layer(500, 420, "Instances", objGameCart);
-carts[3].cartNum = 2;
-carts[3].gameName = "Credits";
-carts[3].selectedSprite = sprCreditsCartSelected;
-carts[3].unselectedSprite = sprCreditsCart;
+carts[3].cartNum = 3;
+carts[3].gameName = "Slime";
+carts[3].selectedSprite = sprSlimeCartSelected;
+carts[3].unselectedSprite = sprSlimeCart;
 carts[3].sprite_index = carts[3].unselectedSprite;
+
+carts[4] = instance_create_layer(600, 420, "Instances", objGameCart);
+carts[4].cartNum = 4;
+carts[4].gameName = "Credits";
+carts[4].selectedSprite = sprCreditsCartSelected;
+carts[4].unselectedSprite = sprCreditsCart;
+carts[4].sprite_index = carts[4].unselectedSprite;
 
 numCarts = array_length(carts);
 
