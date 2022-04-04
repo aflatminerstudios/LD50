@@ -42,7 +42,7 @@ if (!isPaused) {
     objSnakeControl.alarm[0] = 1;
   }
   */
-  
+  ds_list_destroy(input);
   
   
 }

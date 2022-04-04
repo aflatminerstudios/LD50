@@ -89,6 +89,7 @@ instance_create_depth(590, 508, depth + 50, objButton);
 instance_create_depth(258, 524, depth + 50, objDPad);
 //instance_create_depth(454, 0, depth + 50, objTape);
 
+instance_create_depth(0, 0, depth + 50, objMessages);
 
 
 

@@ -3,6 +3,7 @@
 
 // Inherit the parent event
 event_inherited();
+scoreIncrease = 0;
 
 view_visible[1] = false;
 

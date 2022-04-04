@@ -34,3 +34,4 @@ if (ds_list_find_index(input, "actionPressed") != -1) {
   scrSwitchGame(theGame);
 }
 
+ds_list_destroy(input);

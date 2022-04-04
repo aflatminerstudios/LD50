@@ -42,7 +42,7 @@ if (!isPaused) {
       y = oldY;
     }
   }
-
+ds_list_destroy(input);
 
   
 }

@@ -7,7 +7,7 @@ function scrBulletHellScripts(){
 
 function scrBulletHLaunchBomb(positionObj, isSpecial) {
  
- var points = 0; 
+ var points = 5; 
  
  instance_create_depth(positionObj.x, positionObj.y, positionObj.depth - 1, objScreenFlash);
  
@@ -32,6 +32,7 @@ function scrBulletHLaunchBomb(positionObj, isSpecial) {
 
 if (isSpecial) {
   scrRepairAtPosition(positionObj, 0.35, 10);
+  points += 5;
 }
  
  with (objBulletHControl) {

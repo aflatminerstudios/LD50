@@ -63,5 +63,5 @@ if (!isPaused) {
       alarm[0] = shootingTimer / 2; 
     }
   }
-  
+  ds_list_destroy(input);
 }
