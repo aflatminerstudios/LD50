@@ -41,5 +41,7 @@ function scrSwitchGame(whichGame){
  //Create new control object for new game, which probably autostarts
  instance_create_depth(0, 0, 0, ds_map_find_value(objMetaControl.controlObjects, whichGame));
 
+ layer_background_sprite(objMetaControl.bgLayer, ds_map_find_value(objMetaControl.backgrounds, whichGame));
+
 }
 
