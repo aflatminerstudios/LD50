@@ -61,6 +61,7 @@ currentGame = "GameSelect";
 ds_map_add(controlObjects, "Test", objTestParent);
 ds_map_add(controlObjects, "Snake", objSnakeTitle);
 ds_map_add(controlObjects, "Shooter", objShooterTitle);
+ds_map_add(controlObjects, "BulletHell", objBulletHTitle);
 ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 
 scrSwitchGame(currentGame);
