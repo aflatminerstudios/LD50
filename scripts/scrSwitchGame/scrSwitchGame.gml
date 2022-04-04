@@ -104,7 +104,7 @@ function scrSelectMessage(newScore, totalScore, pctBurntCols, pctDeadPixels) {
     ds_list_add(potentials, "Pay more attention next time, I bet you'll live longer");
   } else {
     ds_list_add(potentials, "Let's not talk about that last game");
-    ds_list_add(potentials, "Did you mean to hit start?");
+    ds_list_add(potentials, "Did you actually mean to start that one?");
     ds_list_add(potentials, "At least you tried.");
     ds_list_add(potentials, "Let's not talk about that last game");
     ds_list_add(potentials, "Did you mean to hit start?");
