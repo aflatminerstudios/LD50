@@ -5,6 +5,8 @@ with (other) {
   instance_destroy(); 
 }
 
+turnSpeed /= 1.01;
+
 scrSpawnSnakeTarget();
 
 maxParts += 1;

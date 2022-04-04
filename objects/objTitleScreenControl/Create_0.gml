@@ -9,7 +9,9 @@ scoreTime = -1;
 alarm[11] = -1;
 
 ready = false;
-alarm[0] = room_speed / 2;
+secondScreen = false;
+readyTime = room_speed / 2;
+alarm[0] = readyTime;
 
 
 audio_sound_gain(sndMainMusic, 1.5, 0);

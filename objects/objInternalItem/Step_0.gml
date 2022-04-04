@@ -16,6 +16,9 @@ for (var i = topLeft[0]; i <= bottomRight[0] && i < objMetaControl.numHPixels; i
     //show_debug_message(string(i) + ", " + string(j));
     
     if (i >= 0 && j >= 0 && irandom(1) < chanceToIncrease) {
+      var gridAmt = ds_grid_get(objMetaControl.pixelGrid, i, j);
+      gridAmt = gridAmt + counterIncrease;
+      gridAmt = clamp(gridAmt, 0, 2);
       ds_grid_add(objMetaControl.pixelGrid, i, j, counterIncrease);    
     }
   }

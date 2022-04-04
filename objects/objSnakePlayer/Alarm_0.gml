@@ -81,7 +81,7 @@ if (!isPaused) {
      }
   }
 
-  turnSpeed /= 1.001;
+  
 
   alarm[0] = turnSpeed;
 

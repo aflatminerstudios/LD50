@@ -21,7 +21,7 @@ if (keyboard_check_pressed(ord("O"))) {
 if (keyboard_check_pressed(ord("P"))) {
    for (var i = 0; i < ds_grid_width(pixelGrid); i++) {
       for (var j = 0; j < ds_grid_height(pixelGrid); j++) {
-        ds_grid_set(pixelGrid, i, j, random(0.2)); 
+        ds_grid_set(pixelGrid, i, j, random_range(0.1, 0.3)); 
       }
     }
 
