@@ -8,6 +8,7 @@
     {"id":{"name":"sprSlimeCart","path":"sprites/sprSlimeCart/sprSlimeCart.yy",},"order":8,},
     {"id":{"name":"scrSwitchGame","path":"scripts/scrSwitchGame/scrSwitchGame.yy",},"order":5,},
     {"id":{"name":"objShooterTitle","path":"objects/objShooterTitle/objShooterTitle.yy",},"order":1,},
+    {"id":{"name":"sndSnakePartyTime","path":"sounds/sndSnakePartyTime/sndSnakePartyTime.yy",},"order":2,},
     {"id":{"name":"sndSlimeHammerMove","path":"sounds/sndSlimeHammerMove/sndSlimeHammerMove.yy",},"order":0,},
     {"id":{"name":"sprSnakeTitle","path":"sprites/sprSnakeTitle/sprSnakeTitle.yy",},"order":0,},
     {"id":{"name":"objSnakePlayer","path":"objects/objSnakePlayer/objSnakePlayer.yy",},"order":0,},
