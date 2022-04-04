@@ -22,6 +22,27 @@ if (ds_list_find_index(input, "rightPressed") != -1) {
    audio_play_sound(sndMoveSelect, 1, false);
    carts[whichCart].sprite_index = carts[whichCart].selectedSprite;
 }
+if (ds_list_find_index(input, "upPressed") != -1) {
+   carts[whichCart].sprite_index = carts[whichCart].unselectedSprite;
+   
+   if (whichCart >= numCarts/2) {
+     whichCart -= 3;
+     whichCart %= numCarts;
+     audio_play_sound(sndMoveSelect, 1, false);
+   }
+   carts[whichCart].sprite_index = carts[whichCart].selectedSprite;
+}
+if (ds_list_find_index(input, "downPressed") != -1) {
+   carts[whichCart].sprite_index = carts[whichCart].unselectedSprite;
+   
+   if (whichCart < numCarts/2) {
+     whichCart += 3;
+     whichCart %= numCarts;
+	 audio_play_sound(sndMoveSelect, 1, false);
+   }
+   carts[whichCart].sprite_index = carts[whichCart].selectedSprite;
+}
+
 if (ds_list_find_index(input, "actionPressed") != -1) {  
   var theGame = carts[whichCart].gameName;
   with (objGameSelectBG) {
