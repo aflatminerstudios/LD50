@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSlimeMusic.wav",
-  "duration": 44.17179,
+  "soundFile": "sndSlimeMusic.mp3",
+  "duration": 44.1991653,
   "parent": {
     "name": "Slime",
     "path": "folders/Sounds/Slime.yy",

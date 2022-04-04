@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndBulletHMusic.wav",
-  "duration": 40.4210625,
+  "soundFile": "sndBulletHMusic.mp3",
+  "duration": 40.46367,
   "parent": {
     "name": "BulletHell",
     "path": "folders/Sounds/BulletHell.yy",

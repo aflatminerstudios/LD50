@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSnakeMusic.wav",
-  "duration": 48.0,
+  "soundFile": "sndSnakeMusic.mp3",
+  "duration": 48.0391655,
   "parent": {
     "name": "Snake",
     "path": "folders/Sounds/Snake.yy",

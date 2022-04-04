@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndShooterMusic.wav",
-  "duration": 38.4,
+  "soundFile": "sndShooterMusic.mp3",
+  "duration": 38.4260826,
   "parent": {
     "name": "Shooter",
     "path": "folders/Sounds/Shooter.yy",
