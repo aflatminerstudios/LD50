@@ -8,7 +8,7 @@ if (numBombs == 0) {
   var posX = objMetaControl.boundLeft + irandom_range(25, 175);
   var posY = objMetaControl.boundUp + irandom_range(25, 175);
   
-  var theBomb = instance_create_depth(posX, posY, depth, type);
+  var theBomb = instance_create_depth(posX, posY, objBulletHPlayer.depth-1, type);
   
   with (theBomb) {
      

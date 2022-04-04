@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSlimeCursor",
-    "path": "sprites/sprSlimeCursor/sprSlimeCursor.yy",
+    "name": "sprSlimeHammerUp",
+    "path": "sprites/sprSlimeHammerUp/sprSlimeHammerUp.yy",
   },
   "solid": false,
   "visible": true,

@@ -2,20 +2,20 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 9,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
-  "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_right": 26,
+  "bbox_top": 11,
+  "bbox_bottom": 26,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 27,
+  "height": 27,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"17f9b910-a2a1-4eb7-b23f-8d22f50bc0ef","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17f9b910-a2a1-4eb7-b23f-8d22f50bc0ef","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"LayerId":{"name":"fab8d4c6-f524-416a-bc4c-1da31323dee0","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSlimeEnemy2Squished","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","name":"17f9b910-a2a1-4eb7-b23f-8d22f50bc0ef","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2a733177-00b9-412a-9b48-3bea31017155","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2a733177-00b9-412a-9b48-3bea31017155","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"LayerId":{"name":"c71816a5-503a-4600-aec1-5cfb0730698b","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprSlimeEnemy2Squished","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","name":"2a733177-00b9-412a-9b48-3bea31017155","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprSlimeEnemy2Squished","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"16b699eb-4a30-4af9-a57f-8528b60ce90d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17f9b910-a2a1-4eb7-b23f-8d22f50bc0ef","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65119823-bc63-4c5e-b77d-802f681dcddf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2a733177-00b9-412a-9b48-3bea31017155","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 14,
+    "yorigin": 25,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprSlimeEnemy2Squished","path":"sprites/sprSlimeEnemy2Squished/sprSlimeEnemy2Squished.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fab8d4c6-f524-416a-bc4c-1da31323dee0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c71816a5-503a-4600-aec1-5cfb0730698b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

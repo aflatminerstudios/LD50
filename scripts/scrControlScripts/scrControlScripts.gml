@@ -46,6 +46,12 @@ function scrCheckInput(){
   if (scrCheckLeftPressed()) {
 	  ds_list_add(inputList, "leftPressed"); 
 	}
+  if (scrCheckUpPressed()) {
+	  ds_list_add(inputList, "upPressed");
+	}
+  if (scrCheckDownPressed()) {
+	  ds_list_add(inputList, "downPressed"); 
+	}
   return inputList;
   
 }
@@ -83,7 +89,7 @@ function scrCheckDown() {
 }
 
 function scrCheckAction() {
-  if (keyboard_check(vk_space) || keyboard_check_pressed(vk_enter)) {
+  if (keyboard_check(vk_space) || keyboard_check(vk_enter)) {
     return true; 
   }
 }
@@ -110,6 +116,18 @@ function scrCheckLeftPressed() {
 
 function scrCheckRightPressed() {
 	if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))) {
+	  return true;
+	}
+}
+
+function scrCheckUpPressed() {
+	if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))) {
+	  return true;
+	}
+}
+
+function scrCheckDownPressed() {
+	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))) {
 	  return true;
 	}
 }
