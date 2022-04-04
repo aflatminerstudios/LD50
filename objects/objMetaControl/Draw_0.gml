@@ -1,4 +1,4 @@
-/// @description 
+/// @description
 // You can write your code in this editor
 
 var maxRecoveryAge = 4.0;

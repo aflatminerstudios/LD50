@@ -53,6 +53,14 @@ for (var i = 0; i < numBurntPixel; i++) {
 
 /////////////////////////////////////////////////////////////////////////////////
 
+//For button drawing
+
+dPad = sprDPadNeutral;
+button = sprButtonUp;
+tape = sprTape;
+
+/////////////////////////////////////////////////////////////////////////////////
+
 //Set up game switching
 controlObjects = ds_map_create();
 currentGame = "GameSelect";
@@ -66,6 +74,10 @@ ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 ds_map_add(controlObjects, "Credits", objCreditsControl);
 
 scrSwitchGame(currentGame);
+
+
+
+
 
 
 

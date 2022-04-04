@@ -18,3 +18,8 @@ draw_text(730, 85, scrAddThousandSep(totalScore));
 draw_set_halign(halign);
 draw_set_color(color);
 draw_set_font(font);
+
+
+draw_sprite(dPad, 0, 258, 524);
+draw_sprite(button, 0, 590, 508);
+draw_sprite(tape, 0, 454, 0);
