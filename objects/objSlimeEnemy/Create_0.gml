@@ -8,7 +8,7 @@ event_inherited();
 positionX = 0
 positionY = 0;
 
-counterIncrease /= 1.75;
+counterIncrease /= 1.9;
 
 isSquished = false;
 squishedCoolDownAmount = 40;
