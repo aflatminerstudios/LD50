@@ -25,4 +25,3 @@ gridPosY = [40, 80, 120, 160]
 // Create objSlimePlayer (hammer)
 instance_create_layer(x0+gridPosX[0], y0+gridPosY[0], "Instances", objSlimePlayer);
 
-scrShowGameBackgroundLayer("SlimeBackground");

@@ -20,5 +20,3 @@ numGridY = gameHeight / gridWidth;
 scrSpawnSnakeObject(3, 3, objSnakePlayer);
 scrSpawnSnakeTarget();
 
-
-scrShowGameBackgroundLayer("SnakeBackground");
