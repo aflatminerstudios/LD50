@@ -9,7 +9,8 @@ positionX = 0
 positionY = 0;
 
 
-busyCoolDown = 0; // How long until action is available again
+moveBusyCoolDown = 0; // How long until move is available again
+hammerBusyCoolDown = 0; // How long until move is available again
 
 moveBusyCoolDownAmount = 10
 hammerBusyCoolDownAmount = 10;

@@ -5,22 +5,15 @@
 event_inherited();
 if (!isPaused) {
   
-  if (busyCoolDown > 0)
-    busyCoolDown--;
+  if (moveBusyCoolDown > 0)
+    moveBusyCoolDown--;
+  if (hammerBusyCoolDown > 0)
+    hammerBusyCoolDown--;
 	
-  var isBusy = (busyCoolDown > 0);
-  if (!isBusy) {
-	// Reset the hammer sprite to up
-	if (sprite_index != sprSlimeHammerUp)
-		sprite_index = sprSlimeHammerUp;
-  }
-
-  
-  
+  var canMove = (moveBusyCoolDown <= 0);
+  var input = scrCheckInput();
   //Check moves
-  if (!isBusy) {
-	  var input = scrCheckInput();
-	  
+  if (canMove) {
 	  var didMove = false;
 	  if (ds_list_find_index(input, "up") != -1) {
 	    if (positionY - 1 >= 0) {
@@ -45,19 +38,40 @@ if (!isPaused) {
 	  }
 	  
 	  if (didMove) {
-		busyCoolDown = max(moveBusyCoolDownAmount, busyCoolDown);
+		moveBusyCoolDown = moveBusyCoolDownAmount;
+		audio_play_sound(sndSlimeHammerMove, 1, false);
+		hammerBusyCoolDown = -1; // Lets you hammer right after moving
 	  }
 	  // Move to the current position
 	  x = x0 + objSlimeControl.gridPosX[positionX]
 	  y = y0 + objSlimeControl.gridPosY[positionY]
+  }
   
-	  if (ds_list_find_index(input, "action") != -1) {
+  
+  var canHammer = (hammerBusyCoolDown <= 0);
+  
+  if (canHammer) {
+	// Reset the hammer sprite to up
+	if (sprite_index != sprSlimeHammerUp)
+		sprite_index = sprSlimeHammerUp;
+ 
+  
+	  if (ds_list_find_index(input, "actionPressed") != -1) {
 	      // Hammer now!
 		  // Kick off hammer animation and squish any slimes in that spot
 		  sprite_index = sprSlimeHammerDown;
-		  // Micha TODO
-		  // Set the busyCooldown to some value so we can't rapid fire, or move immediately
-		  busyCoolDown = max(hammerBusyCoolDownAmount, busyCoolDown);
+		  var isHit = true; // Micha TODO
+		  if (isHit) {
+			audio_play_sound(sndSlimeHammerHit, 1, false);  
+			// Add to the score
+			// Micha TODO
+		  } else {
+			audio_play_sound(sndSlimeHammerMiss, 1, false);
+		  }
+		  
+		  
+		  // Set the busyCooldown to some value so we can't rapid fire
+		  hammerBusyCoolDown = hammerBusyCoolDownAmount;
 	  }
   
 	  /*

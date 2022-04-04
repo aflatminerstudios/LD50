@@ -19,8 +19,8 @@ var x0 = objMetaControl.boundLeft
 var y0 = objMetaControl.boundUp
 
 // Screen coordinates of each hole
-gridPosX = [20, 60, 100, 140]
-gridPosY = [40, 80, 120, 160]
+gridPosX = [31, 80, 127, 173]
+gridPosY = [54, 90, 130, 175]
 
 // Create objSlimePlayer (hammer)
 instance_create_layer(x0+gridPosX[0], y0+gridPosY[0], "Instances", objSlimePlayer);

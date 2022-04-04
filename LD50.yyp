@@ -1,11 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"sndSlimeHammerHit","path":"sounds/sndSlimeHammerHit/sndSlimeHammerHit.yy",},"order":1,},
     {"id":{"name":"sprSlimeEnemy1","path":"sprites/sprSlimeEnemy1/sprSlimeEnemy1.yy",},"order":3,},
     {"id":{"name":"sprBulletHTitle","path":"sprites/sprBulletHTitle/sprBulletHTitle.yy",},"order":2,},
     {"id":{"name":"sprSnakeCart","path":"sprites/sprSnakeCart/sprSnakeCart.yy",},"order":1,},
     {"id":{"name":"sprSlimeCart","path":"sprites/sprSlimeCart/sprSlimeCart.yy",},"order":6,},
     {"id":{"name":"scrSwitchGame","path":"scripts/scrSwitchGame/scrSwitchGame.yy",},"order":5,},
     {"id":{"name":"objShooterTitle","path":"objects/objShooterTitle/objShooterTitle.yy",},"order":1,},
+    {"id":{"name":"sndSlimeHammerMove","path":"sounds/sndSlimeHammerMove/sndSlimeHammerMove.yy",},"order":0,},
     {"id":{"name":"sprSnakeTitle","path":"sprites/sprSnakeTitle/sprSnakeTitle.yy",},"order":0,},
     {"id":{"name":"objSnakePlayer","path":"objects/objSnakePlayer/objSnakePlayer.yy",},"order":0,},
     {"id":{"name":"sprBulletHPlayer","path":"sprites/sprBulletHPlayer/sprBulletHPlayer.yy",},"order":0,},
@@ -64,6 +66,7 @@
     {"id":{"name":"sprSlimeEnemy3Squished","path":"sprites/sprSlimeEnemy3Squished/sprSlimeEnemy3Squished.yy",},"order":8,},
     {"id":{"name":"objControlParent","path":"objects/objControlParent/objControlParent.yy",},"order":0,},
     {"id":{"name":"sndShooterEnemyDie","path":"sounds/sndShooterEnemyDie/sndShooterEnemyDie.yy",},"order":1,},
+    {"id":{"name":"sndSlimeHammerMiss","path":"sounds/sndSlimeHammerMiss/sndSlimeHammerMiss.yy",},"order":2,},
     {"id":{"name":"sprSlimeEnemy2","path":"sprites/sprSlimeEnemy2/sprSlimeEnemy2.yy",},"order":4,},
     {"id":{"name":"objShooterExplodingGhost","path":"objects/objShooterExplodingGhost/objShooterExplodingGhost.yy",},"order":3,},
     {"id":{"name":"objSlimeTitle","path":"objects/objSlimeTitle/objSlimeTitle.yy",},"order":4,},
@@ -90,6 +93,7 @@
     {"id":{"name":"objSnakeTitle","path":"objects/objSnakeTitle/objSnakeTitle.yy",},"order":0,},
     {"id":{"name":"objButton","path":"objects/objButton/objButton.yy",},"order":10,},
     {"id":{"name":"objSnakeTarget","path":"objects/objSnakeTarget/objSnakeTarget.yy",},"order":1,},
+    {"id":{"name":"sndSlimeEscape","path":"sounds/sndSlimeEscape/sndSlimeEscape.yy",},"order":3,},
     {"id":{"name":"sprBullet","path":"sprites/sprBullet/sprBullet.yy",},"order":0,},
     {"id":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},"order":0,},
     {"id":{"name":"scrPixelScripts","path":"scripts/scrPixelScripts/scrPixelScripts.yy",},"order":4,},
@@ -189,6 +193,7 @@
     {"folderPath":"folders/Sprites/SingleScreens.yy","order":9,"resourceVersion":"1.0","name":"SingleScreens","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Control Objects/SingleScreens.yy","order":5,"resourceVersion":"1.0","name":"SingleScreens","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Backgrounds.yy","order":10,"resourceVersion":"1.0","name":"Backgrounds","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Slime.yy","order":7,"resourceVersion":"1.0","name":"Slime","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
