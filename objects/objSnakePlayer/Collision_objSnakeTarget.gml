@@ -5,7 +5,7 @@ with (other) {
   instance_destroy(); 
 }
 
-turnSpeed /= 1.01;
+turnSpeed /= 1.02;
 
 scrSpawnSnakeTarget();
 
