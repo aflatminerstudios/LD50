@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSlimeEscape",
-  "duration": 0.0,
+  "soundFile": "sndSlimeEscape.wav",
+  "duration": 0.445624,
   "parent": {
     "name": "Slime",
     "path": "folders/Sounds/Slime.yy",

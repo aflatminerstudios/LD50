@@ -36,7 +36,9 @@ if (!isPaused) {
   }
   if (ds_list_find_index(input, "actionPressed") != -1) {
 	  // Give the action button something to do, in this case a dedicated party sound/yell 
-	  audio_play_sound(sndSnakePartyTime, 1, false);
+    if (!audio_is_playing(sndSnakePartyTime)) {
+	    audio_play_sound(sndSnakePartyTime, 1, false);
+    }
   }
 
     

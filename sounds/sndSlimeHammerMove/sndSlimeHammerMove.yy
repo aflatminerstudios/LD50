@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSlimeHammerMove",
-  "duration": 0.0,
+  "soundFile": "sndSlimeHammerMove.wav",
+  "duration": 0.115011,
   "parent": {
     "name": "Slime",
     "path": "folders/Sounds/Slime.yy",

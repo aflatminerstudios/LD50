@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSlimeHammerMiss",
-  "duration": 0.0,
+  "soundFile": "sndSlimeHammerMiss.wav",
+  "duration": 0.115011,
   "parent": {
     "name": "Slime",
     "path": "folders/Sounds/Slime.yy",

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSlimeHammerHit",
-  "duration": 0.0,
+  "soundFile": "sndSlimeHammerHit.wav",
+  "duration": 0.154649,
   "parent": {
     "name": "Slime",
     "path": "folders/Sounds/Slime.yy",

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSnakePartyTime",
-  "duration": 0.0,
+  "soundFile": "sndSnakePartyTime.wav",
+  "duration": 2.45585,
   "parent": {
     "name": "Snake",
     "path": "folders/Sounds/Snake.yy",
