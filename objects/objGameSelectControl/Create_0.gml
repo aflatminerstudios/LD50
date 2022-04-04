@@ -31,7 +31,7 @@ carts[2].selectedSprite = sprBulletHCartSelected;
 carts[2].unselectedSprite = sprBulletHCart;
 carts[2].sprite_index = carts[2].unselectedSprite;
 
-carts[3] = instance_create_layer(500, 420, "Instances", objGameCart);
+carts[3] = instance_create_layer(450, 420, "Instances", objGameCart);
 carts[3].cartNum = 3;
 carts[3].gameName = "Slime";
 carts[3].selectedSprite = sprSlimeCartSelected;
@@ -44,6 +44,13 @@ carts[4].gameName = "Credits";
 carts[4].selectedSprite = sprCreditsCartSelected;
 carts[4].unselectedSprite = sprCreditsCart;
 carts[4].sprite_index = carts[4].unselectedSprite;
+
+carts[5] = instance_create_layer(700, 375, "Instances", objGameCart);
+carts[5].cartNum = 4;
+carts[5].gameName = "Title";
+carts[5].selectedSprite = sprTitleScreenCartSelected;
+carts[5].unselectedSprite = sprTitleScreenCart;
+carts[5].sprite_index = carts[5].unselectedSprite;
 
 numCarts = array_length(carts);
 

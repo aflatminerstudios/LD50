@@ -73,6 +73,7 @@ ds_map_add(controlObjects, "BulletHell", objBulletHTitle);
 ds_map_add(controlObjects, "Slime", objSlimeTitle);
 ds_map_add(controlObjects, "GameSelect", objGameSelectControl);
 ds_map_add(controlObjects, "Credits", objCreditsControl);
+ds_map_add(controlObjects, "Title", objTitleScreenControl);
 
 ds_map_add(backgrounds, "Test", sprGeneralBackground);
 ds_map_add(backgrounds, "Snake", sprSnakeBackground);
@@ -81,6 +82,7 @@ ds_map_add(backgrounds, "BulletHell", sprBulletBG);
 ds_map_add(backgrounds, "Slime", sprSlimeBG);
 ds_map_add(backgrounds, "GameSelect", sprGeneralBackground);
 ds_map_add(backgrounds, "Credits", sprGeneralBackground);
+ds_map_add(backgrounds, "Title", sprGeneralBackground);
 
 bgLayer = layer_background_get_id("Backgrounds_1");
 
