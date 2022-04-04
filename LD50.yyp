@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sprBulletHTitle","path":"sprites/sprBulletHTitle/sprBulletHTitle.yy",},"order":2,},
     {"id":{"name":"sprSnakeCart","path":"sprites/sprSnakeCart/sprSnakeCart.yy",},"order":1,},
     {"id":{"name":"scrSwitchGame","path":"scripts/scrSwitchGame/scrSwitchGame.yy",},"order":5,},
     {"id":{"name":"objShooterTitle","path":"objects/objShooterTitle/objShooterTitle.yy",},"order":1,},
@@ -7,6 +8,7 @@
     {"id":{"name":"objSnakePlayer","path":"objects/objSnakePlayer/objSnakePlayer.yy",},"order":0,},
     {"id":{"name":"sprBulletHPlayer","path":"sprites/sprBulletHPlayer/sprBulletHPlayer.yy",},"order":0,},
     {"id":{"name":"objMiniTitleParent","path":"objects/objMiniTitleParent/objMiniTitleParent.yy",},"order":3,},
+    {"id":{"name":"fntBulletHell","path":"fonts/fntBulletHell/fntBulletHell.yy",},"order":2,},
     {"id":{"name":"objGameSelectControl","path":"objects/objGameSelectControl/objGameSelectControl.yy",},"order":4,},
     {"id":{"name":"objGameCart","path":"objects/objGameCart/objGameCart.yy",},"order":6,},
     {"id":{"name":"sndBulletHPickupSpecial","path":"sounds/sndBulletHPickupSpecial/sndBulletHPickupSpecial.yy",},"order":1,},
@@ -50,6 +52,7 @@
     {"id":{"name":"sprSnakeTail","path":"sprites/sprSnakeTail/sprSnakeTail.yy",},"order":7,},
     {"id":{"name":"scrSpawnSnakeObject","path":"scripts/scrSpawnSnakeObject/scrSpawnSnakeObject.yy",},"order":6,},
     {"id":{"name":"sprSnakeBody","path":"sprites/sprSnakeBody/sprSnakeBody.yy",},"order":1,},
+    {"id":{"name":"sprBulletHCart","path":"sprites/sprBulletHCart/sprBulletHCart.yy",},"order":5,},
     {"id":{"name":"sprSnakeBackground","path":"sprites/sprSnakeBackground/sprSnakeBackground.yy",},"order":8,},
     {"id":{"name":"sprShooterCart","path":"sprites/sprShooterCart/sprShooterCart.yy",},"order":2,},
     {"id":{"name":"fntScoreTextFont","path":"fonts/fntScoreTextFont/fntScoreTextFont.yy",},"order":1,},
@@ -64,6 +67,7 @@
     {"id":{"name":"TestGame","path":"rooms/TestGame/TestGame.yy",},"order":0,},
     {"id":{"name":"scrPixelScripts","path":"scripts/scrPixelScripts/scrPixelScripts.yy",},"order":4,},
     {"id":{"name":"objBulletHTower","path":"objects/objBulletHTower/objBulletHTower.yy",},"order":1,},
+    {"id":{"name":"objBulletHTitle","path":"objects/objBulletHTitle/objBulletHTitle.yy",},"order":4,},
     {"id":{"name":"sprShooterTitle","path":"sprites/sprShooterTitle/sprShooterTitle.yy",},"order":1,},
     {"id":{"name":"scrInitialize","path":"scripts/scrInitialize/scrInitialize.yy",},"order":1,},
     {"id":{"name":"sprSnakeHead","path":"sprites/sprSnakeHead/sprSnakeHead.yy",},"order":0,},
@@ -72,6 +76,7 @@
     {"id":{"name":"scrAflatLibLogging","path":"scripts/scrAflatLibLogging/scrAflatLibLogging.yy",},"order":2,},
     {"id":{"name":"sprSnakeTurnLeft","path":"sprites/sprSnakeTurnLeft/sprSnakeTurnLeft.yy",},"order":5,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":1,},
+    {"id":{"name":"sprBulletHCartSelected","path":"sprites/sprBulletHCartSelected/sprBulletHCartSelected.yy",},"order":6,},
     {"id":{"name":"scrUtilityScripts","path":"scripts/scrUtilityScripts/scrUtilityScripts.yy",},"order":9,},
     {"id":{"name":"sndBulletHPlayerDie","path":"sounds/sndBulletHPlayerDie/sndBulletHPlayerDie.yy",},"order":2,},
     {"id":{"name":"sndWeirdMechanical","path":"sounds/sndWeirdMechanical/sndWeirdMechanical.yy",},"order":0,},

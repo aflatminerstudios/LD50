@@ -6,7 +6,7 @@ event_inherited();
 
 moveSpeed = 4;
 
-maxBombs = 1;
+maxBombs = 3;
 curBombs = 1;
 curSBombs = 0;
 

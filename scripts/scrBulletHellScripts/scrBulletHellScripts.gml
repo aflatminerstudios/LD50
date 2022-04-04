@@ -31,7 +31,7 @@ function scrBulletHLaunchBomb(positionObj, isSpecial) {
  
 
 if (isSpecial) {
-  scrRepairAtPosition(positionObj, 0.5, 10);
+  scrRepairAtPosition(positionObj, 0.35, 10);
 }
  
  with (objBulletHControl) {
@@ -51,12 +51,14 @@ function scrRepairAtPosition(positionObj, strength, range) {
     ds_grid_add_disk(pixelGrid, gridX, gridY, i, -1 * strength);    
   }
   
-  for (var i = gridX - range / 2; i < gridX + range/2; i++) {
+  ds_list_clear(burntCols);
+  
+ /* for (var i = gridX - range / 2; i < gridX + range/2; i++) {
     var theIndex = ds_list_find_index(burntCols, i)
     while (ds_list_find_index(burntCols, i) != -1) {
       ds_list_delete(burntCols, theIndex);
       theIndex = ds_list_find_index(burntCols, i)
     }
-  }
+  }*/
   
 }

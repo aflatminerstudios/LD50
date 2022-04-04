@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprBulletHTitle",
+    "path": "sprites/sprBulletHTitle/sprBulletHTitle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objControlParent",
-    "path": "objects/objControlParent/objControlParent.yy",
+    "name": "objMiniTitleParent",
+    "path": "objects/objMiniTitleParent/objMiniTitleParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,18 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Control Objects",
-    "path": "folders/Objects/Control Objects.yy",
+    "name": "TitleControls",
+    "path": "folders/Objects/TitleControls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objBulletHControl",
+  "name": "objBulletHTitle",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndBulletHUseBomb",
-  "duration": 0.0,
+  "soundFile": "sndBulletHUseBomb.wav",
+  "duration": 0.788549,
   "parent": {
     "name": "BulletHell",
     "path": "folders/Sounds/BulletHell.yy",
