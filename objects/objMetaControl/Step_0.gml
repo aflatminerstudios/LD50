@@ -9,7 +9,7 @@ if (ds_list_find_index(input, "gameSelectPressed") != -1) {
 
 
 //TODO: Comment out debug keys
-if (keyboard_check_pressed(ord("M"))) {
+/*if (keyboard_check_pressed(ord("M"))) {
   audio_master_gain(0);
 }
 if (keyboard_check_pressed(ord("Z"))) {
@@ -30,7 +30,7 @@ if (keyboard_check_pressed(ord("P"))) {
       ds_grid_set(pixelGrid, irandom_range(0, numHPixels), irandom_range(0, numVPixels), random_range(0.8, 1.4));
     }
 }
-
+*/
 
 /*
 if (scrCheckAction()) {
