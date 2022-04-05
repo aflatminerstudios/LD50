@@ -11,3 +11,5 @@ bulletY = 3;
 
 shootingTimer = room_speed / 3;
 isShooting = false;
+
+counterIncrease *= 1.7;
