@@ -11,3 +11,5 @@ hp = 3;
 hpVariance = 1;
 
 sprite_index = choose(sprGhost, sprGhost2);
+
+counterIncrease *= 1.7;
