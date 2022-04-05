@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-minHP = 2;
+minHP = 1;
 maxHP = 5;
 hp = irandom_range(minHP, maxHP);
 damaged = false;

@@ -36,7 +36,7 @@ function scrBulletHLaunchBomb(positionObj, isSpecial) {
  
 
 if (isSpecial) {
-  scrRepairAtPosition(positionObj, 0.35, 10);
+  scrRepairAtPosition(positionObj, 0.3, 12);
   points += 5;
 }
  
@@ -47,6 +47,7 @@ if (isSpecial) {
 }
 
 function scrRepairAtPosition(positionObj, strength, range) {
+  show_debug_message("Repairing at " + string(positionObj.x) + ", " + string(positionObj.y));
   var pixelGrid = objMetaControl.pixelGrid;
   var burntCols = objMetaControl.burntColList;
   
@@ -54,7 +55,16 @@ function scrRepairAtPosition(positionObj, strength, range) {
   var gridX = cArray[0];
   var gridY = cArray[1];
   for (var i = 1; i < range; ++i) {
-    ds_grid_add_disk(pixelGrid, gridX, gridY, i, -1 * strength);    
+    ds_grid_add_disk(pixelGrid, gridX, gridY, i, -1 * strength);     
+  }
+  
+  for (var i = gridX - range; i < gridX + range; ++i) {
+    for (var j = gridY - range; j < gridY + range; ++j) {
+      var pixelAge = ds_grid_get(pixelGrid, i, j)
+      if (pixelAge < 0.3) {
+        ds_grid_set(pixelGrid, i, j, 0.3);
+      } 
+    }
   }
   
   ds_list_clear(burntCols);

@@ -7,7 +7,7 @@ var chanceToFullyRevive = 0.0001;
 var chanceToRevive = 0.0005;
 var reviveMultiplier = 0.5;
 
-var maxSum = 20;
+var maxSum = 30;
 var maxIndex = -1;
 var pctToBurn = 0.5;
 var minToBurn = 1.1;

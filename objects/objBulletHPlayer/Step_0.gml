@@ -51,7 +51,7 @@ if (!isPaused) {
       scrBulletHLaunchBomb(self, true); 
       curSBombs -= 1;
     } else if (curBombs > 0) {
-      scrBulletHLaunchBomb(self, true);
+      scrBulletHLaunchBomb(self, false);
       curBombs -= 1;
     }
   }

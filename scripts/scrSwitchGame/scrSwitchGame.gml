@@ -143,8 +143,8 @@ function scrSelectMessage(newScore, totalScore, pctBurntCols, pctDeadPixels) {
     ds_list_add(potentials, "What are those spots???"); 
   }
   
-  if ((pctBurntCols > 0.25 || pctDeadPixels > 0.3) && newScore > 500) {
-    ds_list_add(potentials, "Wait, what!? How did you do that on THAT screen?");
+  if ((pctBurntCols > 0.5 || pctDeadPixels > 0.3) && newScore > 500) {
+    ds_list_add(potentials, "Wait, what!? How did you manage to do that well on THAT screen?");
   }
   
   ds_list_shuffle(potentials);
